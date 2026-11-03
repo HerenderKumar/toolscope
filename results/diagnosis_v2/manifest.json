@@ -1,0 +1,40 @@
+{
+ "classifier_version": "D-078",
+ "query_kind": "offline_task_question",
+ "cutoff": 10,
+ "tested_repair_strategies": [
+  "bm25",
+  "semantic"
+ ],
+ "agent_search_replayed": false,
+ "probe_rows": 110,
+ "evidence_rows": 220,
+ "label_rows": 3315,
+ "changed_labels": 137,
+ "provenance": "Legacy probe linkage reconstructed from saved D-073 inputs; not replayed",
+ "source_sha256": {
+  "data/gold/gold.jsonl": "e66f794ef335c746ba388e7a17bf19a4bf6e2f7cd4e859cbf5725000b5b2b3b2",
+  "logs/retrieval_k20.jsonl": "4e07231a6d9669c4f124deac3aec162ab3610251e7cd46b46e7435f91f4bb566",
+  "results/whatif.jsonl": "2018dc702e8e66672c1c2b6c4dc68f01316e902bb76ef2acf649163c4fb5472f",
+  "results/rewrites.jsonl": "1d8e966050e6385254668246e066d649f011d354dc5b3e47bc362ae818b4d1af",
+  "data/catalog/tools.jsonl": "a8485048d6b016da12ca955d0f073a416421525d9e0d1b8c2b758f8e17285f7a",
+  "results/failure_labels.jsonl": "a5072b5f61e8619fdd217802aa73aed655d8697be0d717d7d83effe00634a3f7",
+  "src/toolscope/diagnosis/classify.py": "921b8efee05730605dc84fa8a055110bc1ec1c3bc3bcf86562bfcf465014695f",
+  "src/toolscope/diagnosis/repair_evidence.py": "f65c8424a84c1f5d47167f7d907e9934eeeff08ff6aa012d2170251a45bb6135",
+  "/Users/herender/Desktop/iCode/Toolscope/scripts/classify_failures.py": "e35e33af78a844f49bdd0362638d88fa75c78b8e21410b53baca6627aab005f5",
+  "logs/7b_d063/agent.jsonl": "483ec94ac1eef42d9d940a7cae5ade1951b34110cfe3ab4ad898a8c73cf308d6",
+  "logs/7b_d063_fix/agent.jsonl": "03888c3086fba04d160b255861ece0b926a4dfa53ee29f5b5f288438d593b2ef",
+  "logs/7b_d063_semantic/agent.jsonl": "26592e15f4b7165f593d8fa5b51bbf66c13184976e67c241b0b12790605150cd",
+  "logs/kimi/d063_bm25_a/agent.jsonl": "a0f451fcefd0d047b9d34dc17631751c14ca387bd07b4201835ffe226e3ed623",
+  "logs/kimi/d063_bm25_b/agent.jsonl": "11e432047322ff50585b69c9a62b36088a380a3c6f1ea15fb902339ad349bb0b",
+  "logs/kimi/d063_semantic_a/agent.jsonl": "acd0e112d78a13739109222f78f3c0c6d93c351a3d50c78909787772e42699fa",
+  "logs/kimi/d063_semantic_b/agent.jsonl": "96c050fbc14ded3dccd1d9d22a317e2afc04b28732b6c184d34442557f7759c6",
+  "logs/kimi/test5/agent.jsonl": "af7b44240a901a7a0caadfa552cbf0264a4aab2b6871b30b3ea66824441f8081",
+  "logs/qwen235b/d063_bm25/agent.jsonl": "15f5580e853b4b4e4b0018434ec7b63aab7a225609521c08e3c1926c618291e6",
+  "logs/qwen235b/d063_fix/agent.jsonl": "d57f4662ab2a18a50402aef3b1d41aa8b9178c0a36eac8ed7f142f49e6df76be",
+  "logs/qwen235b/d063_semantic/agent.jsonl": "be4931c42d568bd8b69a942b882422f0361ce82b9483798d8d4c6a72ab451364",
+  "logs/sonnet/agent.jsonl": "0d46890659f2d9e0e5cedddc4018d2b459d50568098b2aa60a25a5f0cd305b25",
+  "logs/sonnet/d063_fix/agent.jsonl": "ee28deeb17b28f8f71c285f461007cfd32307430e7fa4d6e318a08245025ea3c",
+  "logs/sonnet/d063_old/agent.jsonl": "382da8667a0e6a0c0e4d46b9b08e025a79825892f40d86bbd47d24713c163c1b"
+ }
+}

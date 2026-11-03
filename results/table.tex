@@ -1,0 +1,17 @@
+\begin{table}
+\centering
+\caption{Retrieval on LiveMCPBench (95 tasks, 525 tools). $\dagger$: differs from bm25 ($p<0.05$, paired t-test, Bonferroni).}
+\label{tab:retrieval}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Strategy & R@5 & R@10 & nDCG@10 & MRR@10 & C@5 & C@10 & CapR@10 & Tok. \\
+\midrule
+bm25 & 0.347 & 0.418 & 0.347 & 0.444 & 0.189 & 0.232 & 0.437 & 2346 \\
+semantic & 0.417 & 0.504 & 0.423 & 0.523 & 0.200 & 0.274 & 0.524 & 2452 \\
+toolret & 0.381 & 0.462 & 0.376 & 0.469 & 0.189 & 0.242 & 0.471 & 1842 \\
+hybrid & 0.358 & 0.458 & 0.376 & 0.475 & 0.168 & 0.253 & 0.476 & 2153 \\
+rerank & 0.345 & 0.430 & 0.347 & 0.427 & 0.168 & 0.232 & 0.446 & 2029 \\
+server\_first & 0.375 & 0.439 & 0.359 & 0.423 & 0.232 & 0.295 & 0.465 & 1792 \\
+\bottomrule
+\end{tabular}
+\end{table}

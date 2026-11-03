@@ -1,0 +1,13 @@
+.venv
+.git
+logs
+indexes
+data
+results
+third_party
+ui/node_modules
+ui/dist
+**/__pycache__
+.pytest_cache
+.env
+paper

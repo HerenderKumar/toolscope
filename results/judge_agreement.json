@@ -1,0 +1,61 @@
+{
+ "variant": "original",
+ "groups": [
+  {
+   "labels": "all",
+   "n": 155,
+   "agreement": 0.7935483870967742,
+   "kappa": 0.5629955947136565,
+   "kappa_ci": [
+    0.42253521126760557,
+    0.6866960676221976
+   ],
+   "confusion": {
+    "human=failure/judge=failure": 81,
+    "human=success/judge=success": 42,
+    "human=failure/judge=success": 23,
+    "human=success/judge=failure": 9
+   },
+   "passes": false,
+   "human_success": 51,
+   "judge_success": 65
+  },
+  {
+   "labels": "kimi_bm25_full",
+   "n": 95,
+   "agreement": 0.7157894736842105,
+   "kappa": 0.430379746835443,
+   "kappa_ci": [
+    0.24967090829311106,
+    0.6009285872208712
+   ],
+   "confusion": {
+    "human=failure/judge=failure": 39,
+    "human=success/judge=success": 29,
+    "human=failure/judge=success": 18,
+    "human=success/judge=failure": 9
+   },
+   "passes": false,
+   "human_success": 38,
+   "judge_success": 47
+  },
+  {
+   "labels": "sample60",
+   "n": 60,
+   "agreement": 0.9166666666666666,
+   "kappa": 0.7844827586206896,
+   "kappa_ci": [
+    0.5945945945945947,
+    0.9522292993630572
+   ],
+   "confusion": {
+    "human=failure/judge=failure": 42,
+    "human=failure/judge=success": 5,
+    "human=success/judge=success": 13
+   },
+   "passes": true,
+   "human_success": 13,
+   "judge_success": 18
+  }
+ ]
+}

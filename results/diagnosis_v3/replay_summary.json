@@ -1,0 +1,16 @@
+{
+ "version": "D-079",
+ "trajectories": 665,
+ "search_events": 1611,
+ "unique_queries": 1132,
+ "measurements": 6792,
+ "errors": 0,
+ "original_strategy_matches": 1611,
+ "original_strategy_mismatches": 0,
+ "original_strategy_unavailable": 0,
+ "cutoffs": {
+  "5": 1611
+ },
+ "truncated_search_results": 38,
+ "fingerprint": "d30a05ab2121b519ffd043a4fa9ac6b317066fce08f5e720ed32e1f8d4d81733"
+}

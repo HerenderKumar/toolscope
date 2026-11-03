@@ -1,0 +1,65 @@
+# ToolScope workbench: `docker compose up --build`, then open http://localhost:5173
+#   api      read-only FastAPI over results/ and logs/ (POST /api/whatif computes, writes nothing)
+#   ui       React (Vite) workbench: Compare, Failures, Tool health + what-if editor
+#   gateway  FastMCP search_tools / call_tool over HTTP on :8001 (profile "gateway")
+# Prerequisites: the pipeline outputs in results/ and logs/, indexes/ built, and the Hugging Face models cached
+# in ~/.cache/huggingface (scripts/prefetch_models.py). CPU only, no GPU flags (D-002).
+# The gateway also needs the LiveMCPBench container running (README of LiveMCPBench, without --gpus all) and
+# reaches it through the host's Docker socket: `docker compose --profile gateway up --build`.
+
+x-python: &python
+  build:
+    context: .
+    dockerfile: docker/python.Dockerfile
+  environment: &env
+    TOOLSCOPE_STRATEGY: ${TOOLSCOPE_STRATEGY:-semantic}
+    HF_HUB_OFFLINE: "1"
+  volumes: &volumes
+    - ./data:/app/data:ro
+    - ./indexes:/app/indexes:ro
+    - ./results:/app/results:ro
+    - ./logs:/app/logs:ro
+    - ./third_party:/app/third_party:ro
+    - ${HF_HOME_HOST:-~/.cache/huggingface}:/root/.cache/huggingface:ro
+
+services:
+  api:
+    <<: *python
+    command: ["uvicorn", "toolscope.api.app:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health')"]
+      interval: 10s
+      retries: 5
+
+  ui:
+    build:
+      context: .
+      dockerfile: docker/ui.Dockerfile
+    environment:
+      API_TARGET: http://api:8000
+    ports: ["5173:5173"]
+    depends_on:
+      api:
+        condition: service_healthy
+
+  gateway:
+    <<: *python
+    profiles: ["gateway"]
+    command: ["python", "-m", "toolscope.gateway.server"]
+    environment:
+      <<: *env
+      TOOLSCOPE_GATEWAY_TRANSPORT: http
+      TOOLSCOPE_GATEWAY_PORT: "8001"
+      TOOLSCOPE_CONTAINER: ${TOOLSCOPE_CONTAINER:-LiveMCPBench_container}
+      TOOLSCOPE_LOG_DIR: /app/gateway_logs
+    env_file:
+      - path: .env
+        required: false
+    volumes:
+      - ./data:/app/data:ro
+      - ./indexes:/app/indexes:ro
+      - ${HF_HOME_HOST:-~/.cache/huggingface}:/root/.cache/huggingface:ro
+      - ./logs/compose_gateway:/app/gateway_logs
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports: ["8001:8001"]

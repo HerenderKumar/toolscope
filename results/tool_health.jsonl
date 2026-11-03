@@ -1,0 +1,525 @@
+{"tool_id": "desktop-commander/write_file", "server_key": "desktop-commander", "description_chars": 2082, "flags": ["undocumented_params"], "gold_caps": 18, "missed": 102, "whatif": {"gain": 199, "bm25": [113, 1], "semantic": [224, 25], "moved_into_top10": ["bm25"]}}
+{"tool_id": "filesystem/write_file", "server_key": "filesystem", "description_chars": 228, "flags": ["undocumented_params"], "gold_caps": 18, "missed": 102, "whatif": {"gain": 472, "bm25": [488, 16], "semantic": [69, 110], "moved_into_top10": []}}
+{"tool_id": "osm-mcp-server/geocode_address", "server_key": "osm-mcp-server", "description_chars": 840, "flags": ["undocumented_params"], "gold_caps": 9, "missed": 50, "whatif": {"gain": 258, "bm25": [282, 24], "semantic": [102, 283], "moved_into_top10": []}}
+{"tool_id": "osm-mcp-server/reverse_geocode", "server_key": "osm-mcp-server", "description_chars": 752, "flags": ["undocumented_params"], "gold_caps": 7, "missed": 41, "whatif": {"gain": 205, "bm25": [239, 34], "semantic": [35, 22], "moved_into_top10": []}}
+{"tool_id": "time/get_current_time", "server_key": "time", "description_chars": 40, "flags": [], "gold_caps": 5, "missed": 30, "whatif": {"gain": 0, "bm25": [217, 217], "semantic": [44, 53], "moved_into_top10": []}}
+{"tool_id": "trends-hub/get-bbc-news", "server_key": "trends-hub", "description_chars": 42, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 5, "missed": 24, "whatif": {"gain": 37, "bm25": [40, 3], "semantic": [52, 48], "moved_into_top10": ["bm25"]}}
+{"tool_id": "playwright/playwright_click", "server_key": "playwright", "description_chars": 28, "flags": ["short_description"], "gold_caps": 4, "missed": 24, "whatif": {"gain": 248, "bm25": [275, 27], "semantic": [406, 462], "moved_into_top10": []}}
+{"tool_id": "playwright/playwright_fill", "server_key": "playwright", "description_chars": 23, "flags": ["short_description"], "gold_caps": 4, "missed": 24, "whatif": {"gain": 0, "bm25": [232, 232], "semantic": [356, 428], "moved_into_top10": []}}
+{"tool_id": "playwright/playwright_navigate", "server_key": "playwright", "description_chars": 17, "flags": ["short_description"], "gold_caps": 4, "missed": 24, "whatif": {"gain": 12, "bm25": [227, 227], "semantic": [58, 46], "moved_into_top10": []}}
+{"tool_id": "trends-hub/get-36kr-trending", "server_key": "trends-hub", "description_chars": 51, "flags": ["non_english_description"], "gold_caps": 4, "missed": 24, "whatif": {"gain": 120, "bm25": [152, 32], "semantic": [48, 7], "moved_into_top10": ["semantic"]}}
+{"tool_id": "playwright/playwright_get_visible_html", "server_key": "playwright", "description_chars": 148, "flags": [], "gold_caps": 4, "missed": 24, "whatif": {"gain": 17, "bm25": [249, 249], "semantic": [428, 411], "moved_into_top10": []}}
+{"tool_id": "wikipedia/search_wikipedia", "server_key": "wikipedia", "description_chars": 47, "flags": ["undocumented_params"], "gold_caps": 4, "missed": 22, "whatif": {"gain": 315, "bm25": [317, 2], "semantic": [138, 14], "moved_into_top10": ["bm25"]}}
+{"tool_id": "osm-mcp-server/find_nearby_places", "server_key": "osm-mcp-server", "description_chars": 1023, "flags": ["undocumented_params"], "gold_caps": 4, "missed": 19, "whatif": {"gain": 0, "bm25": [35, 143], "semantic": [19, 19], "moved_into_top10": []}}
+{"tool_id": "calculator/calculate", "server_key": "calculator", "description_chars": 42, "flags": ["undocumented_params"], "gold_caps": 4, "missed": 18, "whatif": {"gain": 0, "bm25": [344, 344], "semantic": [414, 439], "moved_into_top10": []}}
+{"tool_id": "word-document-server/create_document", "server_key": "word-document-server", "description_chars": 50, "flags": ["undocumented_params"], "gold_caps": 5, "missed": 18, "whatif": {"gain": 391, "bm25": [400, 9], "semantic": [81, 43], "moved_into_top10": ["bm25"]}}
+{"tool_id": "fetch/fetch", "server_key": "fetch", "description_chars": 307, "flags": [], "gold_caps": 3, "missed": 18, "whatif": {"gain": 30, "bm25": [20, 4], "semantic": [127, 97], "moved_into_top10": ["bm25"]}}
+{"tool_id": "word-document-server/add_paragraph", "server_key": "word-document-server", "description_chars": 35, "flags": ["undocumented_params"], "gold_caps": 5, "missed": 17, "whatif": {"gain": 387, "bm25": [406, 19], "semantic": [104, 95], "moved_into_top10": []}}
+{"tool_id": "trends-hub/get-smzdm-rank", "server_key": "trends-hub", "description_chars": 48, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 2, "missed": 12, "whatif": {"gain": 198, "bm25": [101, 5], "semantic": [200, 2], "moved_into_top10": ["bm25", "semantic"]}}
+{"tool_id": "duckduckgo-search/duckduckgo_web_search", "server_key": "duckduckgo-search", "description_chars": 290, "flags": [], "gold_caps": 2, "missed": 12, "whatif": {"gain": 91, "bm25": [212, 188], "semantic": [377, 286], "moved_into_top10": []}}
+{"tool_id": "playwright/playwright_screenshot", "server_key": "playwright", "description_chars": 59, "flags": [], "gold_caps": 2, "missed": 12, "whatif": {"gain": 48, "bm25": [229, 229], "semantic": [335, 287], "moved_into_top10": []}}
+{"tool_id": "trends-hub/get-nytimes-news", "server_key": "trends-hub", "description_chars": 50, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 2, "missed": 10, "whatif": null}
+{"tool_id": "arxiv-mcp-server/search_papers", "server_key": "arxiv-mcp-server", "description_chars": 50, "flags": ["undocumented_params"], "gold_caps": 4, "missed": 10, "whatif": null}
+{"tool_id": "osm-mcp-server/get_route_directions", "server_key": "osm-mcp-server", "description_chars": 1110, "flags": ["undocumented_params"], "gold_caps": 4, "missed": 10, "whatif": {"gain": 166, "bm25": [240, 74], "semantic": [58, 302], "moved_into_top10": []}}
+{"tool_id": "ppt/create_presentation", "server_key": "ppt", "description_chars": 37, "flags": ["undocumented_params"], "gold_caps": 3, "missed": 10, "whatif": {"gain": 87, "bm25": [286, 286], "semantic": [153, 66], "moved_into_top10": []}}
+{"tool_id": "hackernews/getStories", "server_key": "hackernews", "description_chars": 61, "flags": [], "gold_caps": 2, "missed": 10, "whatif": {"gain": 36, "bm25": [32, 16], "semantic": [49, 13], "moved_into_top10": []}}
+{"tool_id": "mcp-simple-arxiv/search_papers", "server_key": "mcp-simple-arxiv", "description_chars": 516, "flags": [], "gold_caps": 4, "missed": 10, "whatif": null}
+{"tool_id": "12306-mcp/get-station-code-of-citys", "server_key": "12306-mcp", "description_chars": 85, "flags": ["non_english_description"], "gold_caps": 2, "missed": 9, "whatif": {"gain": 447, "bm25": [463, 16], "semantic": [22, 5], "moved_into_top10": ["semantic"]}}
+{"tool_id": "ppt/add_slide", "server_key": "ppt", "description_chars": 69, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 9, "whatif": null}
+{"tool_id": "ppt/save_presentation", "server_key": "ppt", "description_chars": 30, "flags": ["undocumented_params"], "gold_caps": 3, "missed": 8, "whatif": {"gain": 285, "bm25": [289, 4], "semantic": [262, 32], "moved_into_top10": ["bm25"]}}
+{"tool_id": "whois/whois_domain", "server_key": "whois", "description_chars": 42, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 8, "whatif": {"gain": 37, "bm25": [32, 7], "semantic": [91, 54], "moved_into_top10": ["bm25"]}}
+{"tool_id": "yahoo-finance/get_news", "server_key": "yahoo-finance", "description_chars": 34, "flags": [], "gold_caps": 3, "missed": 8, "whatif": null}
+{"tool_id": "trends-hub/get-bilibili-rank", "server_key": "trends-hub", "description_chars": 50, "flags": ["non_english_description"], "gold_caps": 2, "missed": 7, "whatif": {"gain": 312, "bm25": [178, 2], "semantic": [347, 35], "moved_into_top10": ["bm25"]}}
+{"tool_id": "word-document-server/add_picture", "server_key": "word-document-server", "description_chars": 32, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 7, "whatif": {"gain": 44, "bm25": [23, 9], "semantic": [130, 86], "moved_into_top10": ["bm25"]}}
+{"tool_id": "trends-hub/get-ifanr-news", "server_key": "trends-hub", "description_chars": 37, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 49, "bm25": [96, 96], "semantic": [71, 22], "moved_into_top10": []}}
+{"tool_id": "trends-hub/get-juejin-article-rank", "server_key": "trends-hub", "description_chars": 50, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 86, "bm25": [123, 37], "semantic": [52, 15], "moved_into_top10": []}}
+{"tool_id": "wuwa-mcp/get_character_info", "server_key": "wuwa-mcp", "description_chars": 147, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 206, "bm25": [228, 22], "semantic": [130, 3], "moved_into_top10": ["semantic"]}}
+{"tool_id": "ygocdb/get_card_image", "server_key": "ygocdb", "description_chars": 16, "flags": ["short_description", "non_english_description"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 176, "bm25": [183, 7], "semantic": [50, 87], "moved_into_top10": ["bm25"]}}
+{"tool_id": "ygocdb/search_cards", "server_key": "ygocdb", "description_chars": 28, "flags": ["short_description", "non_english_description"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 171, "bm25": [181, 10], "semantic": [40, 13], "moved_into_top10": ["bm25"]}}
+{"tool_id": "desktop-commander/list_directory", "server_key": "desktop-commander", "description_chars": 840, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 6, "whatif": null}
+{"tool_id": "desktop-commander/read_file", "server_key": "desktop-commander", "description_chars": 2464, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 32, "bm25": [68, 36], "semantic": [190, 203], "moved_into_top10": []}}
+{"tool_id": "filesystem/list_directory", "server_key": "filesystem", "description_chars": 309, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 6, "whatif": null}
+{"tool_id": "filesystem/read_file", "server_key": "filesystem", "description_chars": 395, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": -20, "bm25": [42, 62], "semantic": [178, 208], "moved_into_top10": []}}
+{"tool_id": "osm-mcp-server/search_category", "server_key": "osm-mcp-server", "description_chars": 1048, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 10, "bm25": [15, 5], "semantic": [36, 36], "moved_into_top10": ["bm25"]}}
+{"tool_id": "trends-hub/get-gcores-new", "server_key": "trends-hub", "description_chars": 42, "flags": ["non_english_description"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 179, "bm25": [180, 1], "semantic": [58, 1], "moved_into_top10": ["bm25", "semantic"]}}
+{"tool_id": "trends-hub/get-weread-rank", "server_key": "trends-hub", "description_chars": 43, "flags": ["non_english_description"], "gold_caps": 1, "missed": 6, "whatif": {"gain": 42, "bm25": [53, 11], "semantic": [42, 39], "moved_into_top10": []}}
+{"tool_id": "arxiv-mcp-server/download_paper", "server_key": "arxiv-mcp-server", "description_chars": 45, "flags": [], "gold_caps": 1, "missed": 6, "whatif": {"gain": 19, "bm25": [20, 1], "semantic": [14, 1], "moved_into_top10": ["bm25", "semantic"]}}
+{"tool_id": "biomcp/variant_searcher", "server_key": "biomcp", "description_chars": 638, "flags": [], "gold_caps": 1, "missed": 6, "whatif": {"gain": 3, "bm25": [18, 18], "semantic": [36, 33], "moved_into_top10": []}}
+{"tool_id": "searxng/document_reader", "server_key": "searxng", "description_chars": 126, "flags": [], "gold_caps": 2, "missed": 6, "whatif": null}
+{"tool_id": "yahoo-finance/get_cashflow", "server_key": "yahoo-finance", "description_chars": 38, "flags": [], "gold_caps": 1, "missed": 6, "whatif": {"gain": 0, "bm25": [12, 21], "semantic": [24, 24], "moved_into_top10": []}}
+{"tool_id": "yahoo-finance/get_income_statement", "server_key": "yahoo-finance", "description_chars": 46, "flags": [], "gold_caps": 1, "missed": 6, "whatif": {"gain": -5, "bm25": [15, 21], "semantic": [20, 25], "moved_into_top10": []}}
+{"tool_id": "yahoo-finance/get_recommendations", "server_key": "yahoo-finance", "description_chars": 47, "flags": [], "gold_caps": 1, "missed": 6, "whatif": {"gain": 27, "bm25": [28, 1], "semantic": [29, 8], "moved_into_top10": ["bm25", "semantic"]}}
+{"tool_id": "12306-mcp/get-tickets", "server_key": "12306-mcp", "description_chars": 12, "flags": ["short_description", "non_english_description"], "gold_caps": 3, "missed": 5, "whatif": null}
+{"tool_id": "12306-mcp/get-current-date", "server_key": "12306-mcp", "description_chars": 105, "flags": ["non_english_description"], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "kospi-kosdaq/get_stock_fundamental", "server_key": "kospi-kosdaq", "description_chars": 777, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "web3-research-mcp/research-with-keywords", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "wikipedia/get_article", "server_key": "wikipedia", "description_chars": 44, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 5, "whatif": null}
+{"tool_id": "biomcp/trial_references_getter", "server_key": "biomcp", "description_chars": 283, "flags": [], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "datagov/package_show", "server_key": "datagov", "description_chars": 44, "flags": [], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "kospi-kosdaq/load_all_tickers", "server_key": "kospi-kosdaq", "description_chars": 197, "flags": [], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "mcp-simple-arxiv/get_paper_data", "server_key": "mcp-simple-arxiv", "description_chars": 88, "flags": [], "gold_caps": 3, "missed": 5, "whatif": null}
+{"tool_id": "yahoo-finance/get_current_stock_price", "server_key": "yahoo-finance", "description_chars": 50, "flags": [], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "yfmcp/get_ticker_info", "server_key": "yfmcp", "description_chars": 92, "flags": [], "gold_caps": 1, "missed": 5, "whatif": null}
+{"tool_id": "wuwa-mcp/get_artifact_info", "server_key": "wuwa-mcp", "description_chars": 135, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "12306-mcp/get-station-code-by-names", "server_key": "12306-mcp", "description_chars": 90, "flags": ["non_english_description"], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "trends-hub/get-9to5mac-news", "server_key": "trends-hub", "description_chars": 57, "flags": ["non_english_description"], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "trends-hub/get-netease-news-trending", "server_key": "trends-hub", "description_chars": 46, "flags": ["non_english_description"], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "wikipedia/summarize_article_for_query", "server_key": "wikipedia", "description_chars": 66, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "biomcp/article_searcher", "server_key": "biomcp", "description_chars": 659, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "biomcp/trial_searcher", "server_key": "biomcp", "description_chars": 598, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "datagov/package_search", "server_key": "datagov", "description_chars": 42, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "met-museum/get-museum-object", "server_key": "met-museum", "description_chars": 77, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "met-museum/search-museum-objects", "server_key": "met-museum", "description_chars": 391, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "opgg-mcp/lol-champion-positions-data", "server_key": "opgg-mcp", "description_chars": 355, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "pdf-reader-mcp/read_pdf", "server_key": "pdf-reader-mcp", "description_chars": 99, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "searxng/text_diff", "server_key": "searxng", "description_chars": 43, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "yahoo-finance/get_stock_price_date_range", "server_key": "yahoo-finance", "description_chars": 69, "flags": [], "gold_caps": 1, "missed": 4, "whatif": null}
+{"tool_id": "howtocook-mcp/mcp_howtocook_getRecipeById", "server_key": "howtocook-mcp", "description_chars": 29, "flags": ["short_description", "non_english_description"], "gold_caps": 1, "missed": 3, "whatif": null}
+{"tool_id": "kospi-kosdaq/get_stock_ohlcv", "server_key": "kospi-kosdaq", "description_chars": 907, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 3, "whatif": null}
+{"tool_id": "excel/excel_read_sheet", "server_key": "excel", "description_chars": 45, "flags": [], "gold_caps": 2, "missed": 3, "whatif": null}
+{"tool_id": "image-extractor/extract_image_from_url", "server_key": "image-extractor", "description_chars": 193, "flags": [], "gold_caps": 1, "missed": 3, "whatif": null}
+{"tool_id": "youtube-transcript/get_transcript", "server_key": "youtube-transcript", "description_chars": 49, "flags": [], "gold_caps": 1, "missed": 3, "whatif": null}
+{"tool_id": "Bazi/getChineseCalendar", "server_key": "Bazi", "description_chars": 20, "flags": ["short_description", "non_english_description"], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "howtocook-mcp/mcp_howtocook_whatToEat", "server_key": "howtocook-mcp", "description_chars": 22, "flags": ["short_description", "non_english_description"], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "howtocook-mcp/mcp_howtocook_recommendMeals", "server_key": "howtocook-mcp", "description_chars": 39, "flags": ["non_english_description"], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "osm-mcp-server/analyze_commute", "server_key": "osm-mcp-server", "description_chars": 1104, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "weather/get_weather", "server_key": "weather", "description_chars": 450, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "word-document-server/convert_to_pdf", "server_key": "word-document-server", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 2, "whatif": null}
+{"tool_id": "Context7/get-library-docs", "server_key": "Context7", "description_chars": 286, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "Context7/resolve-library-id", "server_key": "Context7", "description_chars": 1133, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "arxiv-mcp-server/read_paper", "server_key": "arxiv-mcp-server", "description_chars": 58, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_pie_chart", "server_key": "mcp-server-chart", "description_chars": 98, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-characters-statistics", "server_key": "opgg-mcp", "description_chars": 76, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "sitemap/get_sitemap_tree", "server_key": "sitemap", "description_chars": 51, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "yahoo-finance/get_historical_stock_prices", "server_key": "yahoo-finance", "description_chars": 53, "flags": [], "gold_caps": 1, "missed": 2, "whatif": null}
+{"tool_id": "trends-hub/get-douban-rank", "server_key": "trends-hub", "description_chars": 45, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "trends-hub/get-infoq-news", "server_key": "trends-hub", "description_chars": 48, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "trends-hub/get-zhihu-trending", "server_key": "trends-hub", "description_chars": 45, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "desktop-commander/start_process", "server_key": "desktop-commander", "description_chars": 3841, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "hackernews/getStoryWithComments", "server_key": "hackernews", "description_chars": 29, "flags": ["short_description"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "investor/get_cnn_fear_greed_index", "server_key": "investor", "description_chars": 31, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "investor/get_crypto_fear_greed_index", "server_key": "investor", "description_chars": 46, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "kospi-kosdaq/get_stock_market_cap", "server_key": "kospi-kosdaq", "description_chars": 743, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "mindmap/convert_markdown_to_mindmap", "server_key": "mindmap", "description_chars": 238, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 1, "whatif": null}
+{"tool_id": "osm-mcp-server/find_ev_charging_stations", "server_key": "osm-mcp-server", "description_chars": 933, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "osm-mcp-server/find_parking_facilities", "server_key": "osm-mcp-server", "description_chars": 849, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "osm-mcp-server/suggest_meeting_point", "server_key": "osm-mcp-server", "description_chars": 958, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "random-number/random_sample", "server_key": "random-number", "description_chars": 187, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "trends-hub/get-douyin-trending", "server_key": "trends-hub", "description_chars": 36, "flags": ["non_english_description"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "trends-hub/get-theverge-news", "server_key": "trends-hub", "description_chars": 49, "flags": ["non_english_description"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "trends-hub/get-weibo-trending", "server_key": "trends-hub", "description_chars": 45, "flags": ["non_english_description"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "weather/get_weather_by_city", "server_key": "weather", "description_chars": 394, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "word-document-server/add_footnote_to_document", "server_key": "word-document-server", "description_chars": 58, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "word-document-server/add_table", "server_key": "word-document-server", "description_chars": 31, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "word-document-server/get_document_text", "server_key": "word-document-server", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "excel/excel_write_to_sheet", "server_key": "excel", "description_chars": 31, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "exchange-rate-mcp/exchange_rate", "server_key": "exchange-rate-mcp", "description_chars": 147, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "mcp-crypto-price/get-market-analysis", "server_key": "mcp-crypto-price", "description_chars": 76, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_word_cloud_chart", "server_key": "mcp-server-chart", "description_chars": 160, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmCompare", "server_key": "npm-sentinel-mcp", "description_chars": 54, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmSize", "server_key": "npm-sentinel-mcp", "description_chars": 67, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "opgg-mcp/lol-champion-analysis", "server_key": "opgg-mcp", "description_chars": 682, "flags": [], "gold_caps": 1, "missed": 1, "whatif": null}
+{"tool_id": "12306-mcp/get-interline-tickets", "server_key": "12306-mcp", "description_chars": 25, "flags": ["short_description", "non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "Ant Design Components/get-component-changelog", "server_key": "Ant Design Components", "description_chars": 107, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "Ant Design Components/get-component-docs", "server_key": "Ant Design Components", "description_chars": 66, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "Ant Design Components/list-component-examples", "server_key": "Ant Design Components", "description_chars": 90, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "Bazi/buildBaziFromLunarDatetime", "server_key": "Bazi", "description_chars": 17, "flags": ["short_description", "non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "Bazi/buildBaziFromSolarDatetime", "server_key": "Bazi", "description_chars": 17, "flags": ["short_description", "non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "docker-mcp/deploy-compose", "server_key": "docker-mcp", "description_chars": 29, "flags": ["short_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_checkout", "server_key": "git", "description_chars": 17, "flags": ["short_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_log", "server_key": "git", "description_chars": 21, "flags": ["short_description", "undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "git/git_reset", "server_key": "git", "description_chars": 27, "flags": ["short_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_status", "server_key": "git", "description_chars": 29, "flags": ["short_description", "undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "howtocook-mcp/mcp_howtocook_getAllRecipes", "server_key": "howtocook-mcp", "description_chars": 6, "flags": ["short_description", "non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_earnings_history", "server_key": "investor", "description_chars": 0, "flags": ["empty_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_financial_statements", "server_key": "investor", "description_chars": 0, "flags": ["empty_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_insider_trades", "server_key": "investor", "description_chars": 0, "flags": ["empty_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/convert_svg_to_png", "server_key": "okppt", "description_chars": 119, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/copy_svg_slide", "server_key": "okppt", "description_chars": 441, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/delete_slide", "server_key": "okppt", "description_chars": 716, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/get_file_info", "server_key": "okppt", "description_chars": 71, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/get_pptx_info", "server_key": "okppt", "description_chars": 88, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/insert_blank_slide", "server_key": "okppt", "description_chars": 813, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/insert_svg", "server_key": "okppt", "description_chars": 775, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/list_files", "server_key": "okppt", "description_chars": 154, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/save_svg_code", "server_key": "okppt", "description_chars": 120, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/svg_prompt", "server_key": "okppt", "description_chars": 50, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/format_table_cell", "server_key": "ppt", "description_chars": 29, "flags": ["short_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/set_core_properties", "server_key": "ppt", "description_chars": 29, "flags": ["short_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "trends-hub/get-sspai-rank", "server_key": "trends-hub", "description_chars": 49, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "trends-hub/get-tencent-news-trending", "server_key": "trends-hub", "description_chars": 47, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wuwa-mcp/get_character_profile", "server_key": "wuwa-mcp", "description_chars": 136, "flags": ["non_english_description", "undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ygocdb/get_card_by_id", "server_key": "ygocdb", "description_chars": 20, "flags": ["short_description", "non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "12306-mcp/get-station-by-telecode", "server_key": "12306-mcp", "description_chars": 115, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "12306-mcp/get-stations-code-in-city", "server_key": "12306-mcp", "description_chars": 64, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "12306-mcp/get-train-route-stations", "server_key": "12306-mcp", "description_chars": 64, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "Ant Design Components/list-components", "server_key": "Ant Design Components", "description_chars": 88, "flags": ["non_english_description"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "Bazi/getBaziDetail", "server_key": "Bazi", "description_chars": 60, "flags": ["non_english_description"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "Bazi/getSolarTimes", "server_key": "Bazi", "description_chars": 84, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "MetaTagGenie/writeImageMetadata", "server_key": "MetaTagGenie", "description_chars": 71, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/build_context", "server_key": "basic-memory", "description_chars": 677, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/canvas", "server_key": "basic-memory", "description_chars": 69, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/create_memory_project", "server_key": "basic-memory", "description_chars": 627, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/delete_note", "server_key": "basic-memory", "description_chars": 35, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/delete_project", "server_key": "basic-memory", "description_chars": 507, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/edit_note", "server_key": "basic-memory", "description_chars": 111, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/get_current_project", "server_key": "basic-memory", "description_chars": 227, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/list_directory", "server_key": "basic-memory", "description_chars": 57, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/list_memory_projects", "server_key": "basic-memory", "description_chars": 267, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/move_note", "server_key": "basic-memory", "description_chars": 71, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/read_content", "server_key": "basic-memory", "description_chars": 46, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/read_note", "server_key": "basic-memory", "description_chars": 43, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/recent_activity", "server_key": "basic-memory", "description_chars": 232, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/search_notes", "server_key": "basic-memory", "description_chars": 77, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/set_default_project", "server_key": "basic-memory", "description_chars": 364, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/switch_project", "server_key": "basic-memory", "description_chars": 355, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/sync_status", "server_key": "basic-memory", "description_chars": 598, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/view_note", "server_key": "basic-memory", "description_chars": 59, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "basic-memory/write_note", "server_key": "basic-memory", "description_chars": 95, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/fetch", "server_key": "biomcp", "description_chars": 2819, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/search", "server_key": "biomcp", "description_chars": 3372, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/find_position_in_pgn", "server_key": "chess", "description_chars": 468, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/make_move", "server_key": "chess", "description_chars": 319, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/new_game", "server_key": "chess", "description_chars": 238, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-contest-details", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-daily-challenge", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-problem", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-user-contest-ranking", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-user-profile", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/get-user-submissions", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "coin-flip/search-problems", "server_key": "coin-flip", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "datagov/group_list", "server_key": "datagov", "description_chars": 23, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "datagov/tag_list", "server_key": "datagov", "description_chars": 21, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/create_directory", "server_key": "desktop-commander", "description_chars": 711, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/edit_block", "server_key": "desktop-commander", "description_chars": 2507, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/force_terminate", "server_key": "desktop-commander", "description_chars": 192, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/get_file_info", "server_key": "desktop-commander", "description_chars": 1051, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/interact_with_process", "server_key": "desktop-commander", "description_chars": 2943, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/kill_process", "server_key": "desktop-commander", "description_chars": 307, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/move_file", "server_key": "desktop-commander", "description_chars": 738, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/read_multiple_files", "server_key": "desktop-commander", "description_chars": 993, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/read_process_output", "server_key": "desktop-commander", "description_chars": 1311, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/search_code", "server_key": "desktop-commander", "description_chars": 1048, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/search_files", "server_key": "desktop-commander", "description_chars": 968, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/set_config_value", "server_key": "desktop-commander", "description_chars": 1042, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "docker-mcp/create-container", "server_key": "docker-mcp", "description_chars": 40, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "docker-mcp/get-logs", "server_key": "docker-mcp", "description_chars": 57, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "docker-mcp/list-containers", "server_key": "docker-mcp", "description_chars": 26, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/create_directory", "server_key": "filesystem", "description_chars": 310, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/directory_tree", "server_key": "filesystem", "description_chars": 360, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/edit_file", "server_key": "filesystem", "description_chars": 185, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/get_file_info", "server_key": "filesystem", "description_chars": 296, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/list_directory_with_sizes", "server_key": "filesystem", "description_chars": 323, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/move_file", "server_key": "filesystem", "description_chars": 325, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/read_multiple_files", "server_key": "filesystem", "description_chars": 324, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/search_files", "server_key": "filesystem", "description_chars": 332, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_add", "server_key": "git", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_branch", "server_key": "git", "description_chars": 17, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_commit", "server_key": "git", "description_chars": 33, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_create_branch", "server_key": "git", "description_chars": 49, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_diff", "server_key": "git", "description_chars": 45, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_diff_staged", "server_key": "git", "description_chars": 40, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_diff_unstaged", "server_key": "git", "description_chars": 62, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_init", "server_key": "git", "description_chars": 31, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "git/git_show", "server_key": "git", "description_chars": 30, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getComment", "server_key": "hackernews", "description_chars": 26, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getComments", "server_key": "hackernews", "description_chars": 24, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getStory", "server_key": "hackernews", "description_chars": 24, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getUser", "server_key": "hackernews", "description_chars": 24, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getUserSubmissions", "server_key": "hackernews", "description_chars": 24, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "howtocook-mcp/mcp_howtocook_getRecipesByCategory", "server_key": "howtocook-mcp", "description_chars": 56, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_institutional_holders", "server_key": "investor", "description_chars": 48, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_options", "server_key": "investor", "description_chars": 59, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_price_history", "server_key": "investor", "description_chars": 94, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "investor/get_ticker_data", "server_key": "investor", "description_chars": 350, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "kospi-kosdaq/get_stock_trading_volume", "server_key": "kospi-kosdaq", "description_chars": 410, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-deepwiki/deepwiki_fetch", "server_key": "mcp-deepwiki", "description_chars": 45, "flags": ["undocumented_params"], "gold_caps": 2, "missed": 0, "whatif": null}
+{"tool_id": "memory/add_observations", "server_key": "memory", "description_chars": 64, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/create_entities", "server_key": "memory", "description_chars": 51, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/create_relations", "server_key": "memory", "description_chars": 106, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/delete_observations", "server_key": "memory", "description_chars": 65, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mermaid-validator/validateMermaid", "server_key": "mermaid-validator", "description_chars": 65, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/beat_track", "server_key": "music-analysis", "description_chars": 521, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/chroma_cqt", "server_key": "music-analysis", "description_chars": 853, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/download_from_url", "server_key": "music-analysis", "description_chars": 132, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/download_from_youtube", "server_key": "music-analysis", "description_chars": 140, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/get_duration", "server_key": "music-analysis", "description_chars": 71, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/load", "server_key": "music-analysis", "description_chars": 165, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/mfcc", "server_key": "music-analysis", "description_chars": 358, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "music-analysis/tempo", "server_key": "music-analysis", "description_chars": 120, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npx_fetch/fetch_json", "server_key": "npx_fetch", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/add_slide_with_layout", "server_key": "okppt", "description_chars": 104, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/analyze_presentation_layouts", "server_key": "okppt", "description_chars": 99, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/clear_placeholders_from_slides", "server_key": "okppt", "description_chars": 111, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "okppt/set_placeholder_value", "server_key": "okppt", "description_chars": 102, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-meta-characters", "server_key": "opgg-mcp", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-meta-maps", "server_key": "opgg-mcp", "description_chars": 22, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "osm-mcp-server/analyze_neighborhood", "server_key": "osm-mcp-server", "description_chars": 1007, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "osm-mcp-server/explore_area", "server_key": "osm-mcp-server", "description_chars": 806, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "osm-mcp-server/find_schools_nearby", "server_key": "osm-mcp-server", "description_chars": 962, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_get", "server_key": "playwright", "description_chars": 27, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_hover", "server_key": "playwright", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_patch", "server_key": "playwright", "description_chars": 29, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_post", "server_key": "playwright", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_press_key", "server_key": "playwright", "description_chars": 20, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_put", "server_key": "playwright", "description_chars": 27, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/add_bullet_points", "server_key": "ppt", "description_chars": 35, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/add_chart", "server_key": "ppt", "description_chars": 61, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/add_connector", "server_key": "ppt", "description_chars": 572, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/add_shape", "server_key": "ppt", "description_chars": 51, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/add_table", "server_key": "ppt", "description_chars": 56, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/apply_picture_effects", "server_key": "ppt", "description_chars": 46, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/apply_professional_design", "server_key": "ppt", "description_chars": 161, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/apply_slide_template", "server_key": "ppt", "description_chars": 586, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/auto_generate_presentation", "server_key": "ppt", "description_chars": 467, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/create_presentation_from_template", "server_key": "ppt", "description_chars": 58, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/create_presentation_from_templates", "server_key": "ppt", "description_chars": 949, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/create_slide_from_template", "server_key": "ppt", "description_chars": 507, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/get_presentation_info", "server_key": "ppt", "description_chars": 37, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/get_slide_info", "server_key": "ppt", "description_chars": 39, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/get_template_file_info", "server_key": "ppt", "description_chars": 71, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/get_template_info", "server_key": "ppt", "description_chars": 119, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_fonts", "server_key": "ppt", "description_chars": 77, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_hyperlinks", "server_key": "ppt", "description_chars": 500, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_image", "server_key": "ppt", "description_chars": 62, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_slide_masters", "server_key": "ppt", "description_chars": 384, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_slide_transitions", "server_key": "ppt", "description_chars": 382, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/manage_text", "server_key": "ppt", "description_chars": 104, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/open_presentation", "server_key": "ppt", "description_chars": 53, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/optimize_slide_text", "server_key": "ppt", "description_chars": 456, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/populate_placeholder", "server_key": "ppt", "description_chars": 33, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/switch_presentation", "server_key": "ppt", "description_chars": 42, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/update_chart_data", "server_key": "ppt", "description_chars": 400, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_click", "server_key": "puppeteer", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_fill", "server_key": "puppeteer", "description_chars": 23, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_hover", "server_key": "puppeteer", "description_chars": 28, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_navigate", "server_key": "puppeteer", "description_chars": 17, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/random_choices", "server_key": "random-number", "description_chars": 280, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/random_float", "server_key": "random-number", "description_chars": 171, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/random_int", "server_key": "random-number", "description_chars": 183, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/random_shuffle", "server_key": "random-number", "description_chars": 138, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/secure_random_int", "server_key": "random-number", "description_chars": 154, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "random-number/secure_token_hex", "server_key": "random-number", "description_chars": 158, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/html_formatter", "server_key": "searxng", "description_chars": 29, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/add_tasks_to_request", "server_key": "taskmanager", "description_chars": 178, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/approve_request_completion", "server_key": "taskmanager", "description_chars": 354, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/approve_task_completion", "server_key": "taskmanager", "description_chars": 479, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/delete_task", "server_key": "taskmanager", "description_chars": 157, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/get_next_task", "server_key": "taskmanager", "description_chars": 1000, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/mark_task_done", "server_key": "taskmanager", "description_chars": 373, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/open_task_details", "server_key": "taskmanager", "description_chars": 97, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/request_planning", "server_key": "taskmanager", "description_chars": 1464, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/update_task", "server_key": "taskmanager", "description_chars": 164, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "text-editor/edit_text_file_contents", "server_key": "text-editor", "description_chars": 1020, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "trends-hub/get-thepaper-trending", "server_key": "trends-hub", "description_chars": 45, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "trends-hub/get-toutiao-trending", "server_key": "trends-hub", "description_chars": 46, "flags": ["non_english_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/create-research-plan", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/fetch-content", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/list-resources", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/research-source", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/research-token", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/search", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/search-source", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "web3-research-mcp/update-status", "server_key": "web3-research-mcp", "description_chars": 0, "flags": ["empty_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "whois/whois_as", "server_key": "whois", "description_chars": 66, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "whois/whois_ip", "server_key": "whois", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "whois/whois_tld", "server_key": "whois", "description_chars": 58, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/extract_key_facts", "server_key": "wikipedia", "description_chars": 74, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/get_links", "server_key": "wikipedia", "description_chars": 51, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/get_related_topics", "server_key": "wikipedia", "description_chars": 72, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/get_sections", "server_key": "wikipedia", "description_chars": 40, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/get_summary", "server_key": "wikipedia", "description_chars": 37, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "wikipedia/summarize_article_section", "server_key": "wikipedia", "description_chars": 59, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/add_endnote_to_document", "server_key": "word-document-server", "description_chars": 58, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/add_heading", "server_key": "word-document-server", "description_chars": 33, "flags": ["undocumented_params"], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/add_page_break", "server_key": "word-document-server", "description_chars": 33, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/copy_document", "server_key": "word-document-server", "description_chars": 33, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/create_custom_style", "server_key": "word-document-server", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/customize_footnote_style", "server_key": "word-document-server", "description_chars": 63, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/delete_paragraph", "server_key": "word-document-server", "description_chars": 35, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/find_text_in_document", "server_key": "word-document-server", "description_chars": 53, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/format_table", "server_key": "word-document-server", "description_chars": 52, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/format_text", "server_key": "word-document-server", "description_chars": 51, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/get_document_info", "server_key": "word-document-server", "description_chars": 38, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/get_document_outline", "server_key": "word-document-server", "description_chars": 37, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/get_paragraph_text_from_document", "server_key": "word-document-server", "description_chars": 54, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/list_available_documents", "server_key": "word-document-server", "description_chars": 48, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/protect_document", "server_key": "word-document-server", "description_chars": 43, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/search_and_replace", "server_key": "word-document-server", "description_chars": 44, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "word-document-server/unprotect_document", "server_key": "word-document-server", "description_chars": 48, "flags": ["undocumented_params"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yahoo-finance/get_earning_dates", "server_key": "yahoo-finance", "description_chars": 18, "flags": ["short_description"], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "Asset_Price_MCP/get_asset_price", "server_key": "Asset_Price_MCP", "description_chars": 103, "flags": [], "gold_caps": 2, "missed": 0, "whatif": null}
+{"tool_id": "airbnb/airbnb_listing_details", "server_key": "airbnb", "description_chars": 90, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "airbnb/airbnb_search", "server_key": "airbnb", "description_chars": 96, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "arxiv-mcp-server/list_papers", "server_key": "arxiv-mcp-server", "description_chars": 47, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/alphagenome_predictor", "server_key": "biomcp", "description_chars": 1101, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/article_getter", "server_key": "biomcp", "description_chars": 462, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/think", "server_key": "biomcp", "description_chars": 2158, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/trial_getter", "server_key": "biomcp", "description_chars": 515, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/trial_locations_getter", "server_key": "biomcp", "description_chars": 333, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/trial_outcomes_getter", "server_key": "biomcp", "description_chars": 326, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/trial_protocol_getter", "server_key": "biomcp", "description_chars": 299, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "biomcp/variant_getter", "server_key": "biomcp", "description_chars": 476, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/get_board_visualization", "server_key": "chess", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/get_turn", "server_key": "chess", "description_chars": 48, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "chess/get_valid_moves", "server_key": "chess", "description_chars": 61, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/get_config", "server_key": "desktop-commander", "description_chars": 995, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/get_usage_stats", "server_key": "desktop-commander", "description_chars": 325, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/give_feedback_to_desktop_commander", "server_key": "desktop-commander", "description_chars": 2014, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/list_processes", "server_key": "desktop-commander", "description_chars": 311, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "desktop-commander/list_sessions", "server_key": "desktop-commander", "description_chars": 780, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "excel/excel_copy_sheet", "server_key": "excel", "description_chars": 34, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "excel/excel_create_table", "server_key": "excel", "description_chars": 33, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "excel/excel_describe_sheets", "server_key": "excel", "description_chars": 50, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "filesystem/list_allowed_directories", "server_key": "filesystem", "description_chars": 156, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/getCommentTree", "server_key": "hackernews", "description_chars": 30, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hackernews/search", "server_key": "hackernews", "description_chars": 46, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hugeicons/get_platform_usage", "server_key": "hugeicons", "description_chars": 54, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hugeicons/list_icons", "server_key": "hugeicons", "description_chars": 43, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "hugeicons/search_icons", "server_key": "hugeicons", "description_chars": 111, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "image-extractor/extract_image_from_base64", "server_key": "image-extractor", "description_chars": 204, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "image-extractor/extract_image_from_file", "server_key": "image-extractor", "description_chars": 182, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getAnimations", "server_key": "magicuidesign_mcp", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getBackgrounds", "server_key": "magicuidesign_mcp", "description_chars": 176, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getButtons", "server_key": "magicuidesign_mcp", "description_chars": 178, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getComponents", "server_key": "magicuidesign_mcp", "description_chars": 310, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getDeviceMocks", "server_key": "magicuidesign_mcp", "description_chars": 78, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getSpecialEffects", "server_key": "magicuidesign_mcp", "description_chars": 180, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getTextAnimations", "server_key": "magicuidesign_mcp", "description_chars": 298, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "magicuidesign_mcp/getUIComponents", "server_key": "magicuidesign_mcp", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "maven-deps-server/check_maven_version_exists", "server_key": "maven-deps-server", "description_chars": 56, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "maven-deps-server/get_latest_release", "server_key": "maven-deps-server", "description_chars": 87, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "maven-deps-server/list_maven_versions", "server_key": "maven-deps-server", "description_chars": 78, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-crypto-price/get-crypto-price", "server_key": "mcp-crypto-price", "description_chars": 52, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "mcp-crypto-price/get-historical-analysis", "server_key": "mcp-crypto-price", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-github-trending/get_github_trending_developers", "server_key": "mcp-github-trending", "description_chars": 33, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-github-trending/get_github_trending_repositories", "server_key": "mcp-github-trending", "description_chars": 35, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_area_chart", "server_key": "mcp-server-chart", "description_chars": 388, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_bar_chart", "server_key": "mcp-server-chart", "description_chars": 155, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_boxplot_chart", "server_key": "mcp-server-chart", "description_chars": 161, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_column_chart", "server_key": "mcp-server-chart", "description_chars": 226, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_district_map", "server_key": "mcp-server-chart", "description_chars": 365, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_dual_axes_chart", "server_key": "mcp-server-chart", "description_chars": 248, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_fishbone_diagram", "server_key": "mcp-server-chart", "description_chars": 268, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_flow_diagram", "server_key": "mcp-server-chart", "description_chars": 149, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_funnel_chart", "server_key": "mcp-server-chart", "description_chars": 188, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_histogram_chart", "server_key": "mcp-server-chart", "description_chars": 221, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_line_chart", "server_key": "mcp-server-chart", "description_chars": 136, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_liquid_chart", "server_key": "mcp-server-chart", "description_chars": 162, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_mind_map", "server_key": "mcp-server-chart", "description_chars": 221, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_network_graph", "server_key": "mcp-server-chart", "description_chars": 144, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_organization_chart", "server_key": "mcp-server-chart", "description_chars": 174, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_path_map", "server_key": "mcp-server-chart", "description_chars": 86, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_pin_map", "server_key": "mcp-server-chart", "description_chars": 167, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_radar_chart", "server_key": "mcp-server-chart", "description_chars": 225, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_sankey_chart", "server_key": "mcp-server-chart", "description_chars": 168, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_scatter_chart", "server_key": "mcp-server-chart", "description_chars": 183, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_treemap_chart", "server_key": "mcp-server-chart", "description_chars": 168, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_venn_chart", "server_key": "mcp-server-chart", "description_chars": 184, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-server-chart/generate_violin_chart", "server_key": "mcp-server-chart", "description_chars": 160, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-simple-arxiv/list_categories", "server_key": "mcp-simple-arxiv", "description_chars": 65, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "mcp-simple-arxiv/update_categories", "server_key": "mcp-simple-arxiv", "description_chars": 81, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/delete_entities", "server_key": "memory", "description_chars": 80, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/delete_relations", "server_key": "memory", "description_chars": 50, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/open_nodes", "server_key": "memory", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/read_graph", "server_key": "memory", "description_chars": 31, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "memory/search_nodes", "server_key": "memory", "description_chars": 56, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "met-museum/list-departments", "server_key": "met-museum", "description_chars": 67, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmAlternatives", "server_key": "npm-sentinel-mcp", "description_chars": 52, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmChangelogAnalysis", "server_key": "npm-sentinel-mcp", "description_chars": 49, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmDeprecated", "server_key": "npm-sentinel-mcp", "description_chars": 32, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmDeps", "server_key": "npm-sentinel-mcp", "description_chars": 58, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmLatest", "server_key": "npm-sentinel-mcp", "description_chars": 54, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmLicenseCompatibility", "server_key": "npm-sentinel-mcp", "description_chars": 53, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmMaintainers", "server_key": "npm-sentinel-mcp", "description_chars": 44, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmMaintenance", "server_key": "npm-sentinel-mcp", "description_chars": 35, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmPackageReadme", "server_key": "npm-sentinel-mcp", "description_chars": 39, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmQuality", "server_key": "npm-sentinel-mcp", "description_chars": 31, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmRepoStats", "server_key": "npm-sentinel-mcp", "description_chars": 42, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmScore", "server_key": "npm-sentinel-mcp", "description_chars": 84, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmSearch", "server_key": "npm-sentinel-mcp", "description_chars": 43, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmTrends", "server_key": "npm-sentinel-mcp", "description_chars": 55, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmTypes", "server_key": "npm-sentinel-mcp", "description_chars": 61, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmVersions", "server_key": "npm-sentinel-mcp", "description_chars": 44, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npm-sentinel-mcp/npmVulnerabilities", "server_key": "npm-sentinel-mcp", "description_chars": 43, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npx_fetch/fetch_html", "server_key": "npx_fetch", "description_chars": 46, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npx_fetch/fetch_markdown", "server_key": "npx_fetch", "description_chars": 50, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "npx_fetch/fetch_txt", "server_key": "npx_fetch", "description_chars": 59, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/esports-lol-schedules", "server_key": "opgg-mcp", "description_chars": 33, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/esports-lol-team-standings", "server_key": "opgg-mcp", "description_chars": 36, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-brawl-champion-tier-rank", "server_key": "opgg-mcp", "description_chars": 51, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-champion-leader-board", "server_key": "opgg-mcp", "description_chars": 266, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-champion-meta-data", "server_key": "opgg-mcp", "description_chars": 90, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-champion-skin-sale", "server_key": "opgg-mcp", "description_chars": 70, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-summoner-game-history", "server_key": "opgg-mcp", "description_chars": 234, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-summoner-renewal", "server_key": "opgg-mcp", "description_chars": 162, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/lol-summoner-search", "server_key": "opgg-mcp", "description_chars": 291, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/tft-champion-item-build", "server_key": "opgg-mcp", "description_chars": 56, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/tft-meta-item-combinations", "server_key": "opgg-mcp", "description_chars": 72, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/tft-meta-trend-deck-list", "server_key": "opgg-mcp", "description_chars": 53, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/tft-play-style-comment", "server_key": "opgg-mcp", "description_chars": 62, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/tft-recommend-champion-for-item", "server_key": "opgg-mcp", "description_chars": 69, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-agents-composition-with-map", "server_key": "opgg-mcp", "description_chars": 51, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-leaderboard", "server_key": "opgg-mcp", "description_chars": 36, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "opgg-mcp/valorant-player-match-history", "server_key": "opgg-mcp", "description_chars": 80, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "painter/drawing_fillRectangle", "server_key": "painter", "description_chars": 78, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "painter/drawing_generateCanvas", "server_key": "painter", "description_chars": 62, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "painter/drawing_getCanvasData", "server_key": "painter", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "painter/drawing_getCanvasPng", "server_key": "painter", "description_chars": 63, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "playwright/clear_codegen_session", "server_key": "playwright", "description_chars": 57, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/end_codegen_session", "server_key": "playwright", "description_chars": 56, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/get_codegen_session", "server_key": "playwright", "description_chars": 47, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_assert_response", "server_key": "playwright", "description_chars": 74, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_click_and_switch_tab", "server_key": "playwright", "description_chars": 47, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_close", "server_key": "playwright", "description_chars": 43, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_console_logs", "server_key": "playwright", "description_chars": 61, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_custom_user_agent", "server_key": "playwright", "description_chars": 39, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_delete", "server_key": "playwright", "description_chars": 30, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_drag", "server_key": "playwright", "description_chars": 36, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_evaluate", "server_key": "playwright", "description_chars": 41, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_expect_response", "server_key": "playwright", "description_chars": 129, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_get_visible_text", "server_key": "playwright", "description_chars": 48, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_go_back", "server_key": "playwright", "description_chars": 32, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_go_forward", "server_key": "playwright", "description_chars": 35, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_iframe_click", "server_key": "playwright", "description_chars": 41, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_iframe_fill", "server_key": "playwright", "description_chars": 40, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_save_as_pdf", "server_key": "playwright", "description_chars": 35, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_select", "server_key": "playwright", "description_chars": 45, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/playwright_upload_file", "server_key": "playwright", "description_chars": 58, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "playwright/start_codegen_session", "server_key": "playwright", "description_chars": 64, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/get_server_info", "server_key": "ppt", "description_chars": 37, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/list_presentations", "server_key": "ppt", "description_chars": 30, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "ppt/list_slide_templates", "server_key": "ppt", "description_chars": 42, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_evaluate", "server_key": "puppeteer", "description_chars": 41, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_screenshot", "server_key": "puppeteer", "description_chars": 59, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "puppeteer/puppeteer_select", "server_key": "puppeteer", "description_chars": 45, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/docx_to_html", "server_key": "searxng", "description_chars": 48, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/docx_to_pdf", "server_key": "searxng", "description_chars": 32, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "searxng/excel_read", "server_key": "searxng", "description_chars": 69, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/format_convert", "server_key": "searxng", "description_chars": 70, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/html_cleaner", "server_key": "searxng", "description_chars": 54, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/html_extract_resources", "server_key": "searxng", "description_chars": 55, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/html_to_markdown", "server_key": "searxng", "description_chars": 31, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/html_to_text", "server_key": "searxng", "description_chars": 53, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/pdf_merger", "server_key": "searxng", "description_chars": 33, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "searxng/pdf_splitter", "server_key": "searxng", "description_chars": 36, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/text_encoding_converter", "server_key": "searxng", "description_chars": 40, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/text_formatter", "server_key": "searxng", "description_chars": 52, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "searxng/text_splitter", "server_key": "searxng", "description_chars": 52, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "sequential-thinking/sequentialthinking", "server_key": "sequential-thinking", "description_chars": 2780, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "shadcn-ui-server/get_component_details", "server_key": "shadcn-ui-server", "description_chars": 61, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "shadcn-ui-server/get_component_examples", "server_key": "shadcn-ui-server", "description_chars": 53, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "shadcn-ui-server/list_shadcn_components", "server_key": "shadcn-ui-server", "description_chars": 48, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "shadcn-ui-server/search_components", "server_key": "shadcn-ui-server", "description_chars": 42, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "sitemap/get_sitemap_pages", "server_key": "sitemap", "description_chars": 116, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "sitemap/get_sitemap_stats", "server_key": "sitemap", "description_chars": 64, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "sitemap/parse_sitemap_content", "server_key": "sitemap", "description_chars": 53, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "taskmanager/list_requests", "server_key": "taskmanager", "description_chars": 130, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "text-editor/get_text_file_contents", "server_key": "text-editor", "description_chars": 243, "flags": [], "gold_caps": 1, "missed": 0, "whatif": null}
+{"tool_id": "time/convert_time", "server_key": "time", "description_chars": 30, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yahoo-finance/get_dividends", "server_key": "yahoo-finance", "description_chars": 39, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yahoo-finance/get_stock_price_by_date", "server_key": "yahoo-finance", "description_chars": 64, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yfmcp/get_price_history", "server_key": "yfmcp", "description_chars": 90, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yfmcp/get_ticker_news", "server_key": "yfmcp", "description_chars": 104, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yfmcp/get_top", "server_key": "yfmcp", "description_chars": 104, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}
+{"tool_id": "yfmcp/search", "server_key": "yfmcp", "description_chars": 98, "flags": [], "gold_caps": 0, "missed": 0, "whatif": null}

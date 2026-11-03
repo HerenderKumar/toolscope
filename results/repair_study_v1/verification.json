@@ -1,0 +1,11 @@
+{
+  "measurements": 17290,
+  "tradeoffs": 4085,
+  "scenario_strategy_groups": 182,
+  "coverage_checks": 34580,
+  "summary_rows": 364,
+  "source_hashes": 32,
+  "protected_files": 179,
+  "mismatches": 0,
+  "tests_passed": 236
+}

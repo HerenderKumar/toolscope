@@ -1,0 +1,20 @@
+# CPU-only PyTorch: pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+pytest==8.3.3
+huggingface_hub==0.26.2
+ranx==0.3.21
+bm25s==0.2.6
+faiss-cpu==1.9.0.post1
+numpy==2.4.6
+scipy==1.17.1
+sentence-transformers==3.3.1
+transformers==4.46.3
+fastmcp==3.4.11
+mcp==1.30.0
+jsonschema==4.26.0
+openpyxl==3.1.5
+fastapi==0.162.0
+uvicorn==0.54.0
+starlette==1.10.0
+matplotlib==3.9.2

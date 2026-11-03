@@ -1,0 +1,302 @@
+{
+ "S01": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "b6281fad-0da4-4fd4-b669-7e4ff9083a82"
+ },
+ "S02": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "08644b1a-ac5e-45a9-8ad1-3a3942e8d366"
+ },
+ "S03": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "88ccea26-01f6-4db6-ba95-6b2a73c0488b"
+ },
+ "S04": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "d116bda4-e70c-4ef1-ab1a-b68b4855e1bf"
+ },
+ "S05": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "7180c69a-bbf2-4912-a0ca-a6345c5fe7f1"
+ },
+ "S06": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "fa451c3f-23c2-4b03-bcb6-60b49e3a142f"
+ },
+ "S07": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "ec6f4fe5-e650-48b1-8805-285d8f52eb10"
+ },
+ "S08": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "2f8db365-6b8b-4188-8812-4efcf91a40bd"
+ },
+ "S09": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "99d7541a-73c0-4ea1-8002-a70a041f3ffc"
+ },
+ "S10": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "2e190c2a-8aab-44e1-896d-671cb3fcc495"
+ },
+ "S11": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "17a4aef0-bb60-47b1-9b47-3686bca29db3"
+ },
+ "S12": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "1f6a6db5-05b5-4a8d-a6ef-fbb5d823ad1d"
+ },
+ "S13": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "10b5dbf7-0bac-4b25-835f-e806967ad340"
+ },
+ "S14": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "71a7a42a-54af-4552-ad9b-d36f4912cc1c"
+ },
+ "S15": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "5a2720cd-20f1-49e7-a3fc-8e74af2217f6"
+ },
+ "S16": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "a984d31b-f3e9-47d4-8726-19a06e6babc5"
+ },
+ "S17": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "567c79c3-3afb-4979-90cf-88ca49cb701d"
+ },
+ "S18": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "4de2e9f7-f3ea-4d02-8532-0a1b0b530609"
+ },
+ "S19": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "8aaa7e7f-aff7-4735-9dc8-8bb5f474506c"
+ },
+ "S20": {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "task_id": "b050f277-0a92-4cfc-933b-5f01430e77dd"
+ },
+ "S21": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "cab818f4-ee48-440b-a37e-564c4edf401a"
+ },
+ "S22": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "9fc8b7f3-776c-4756-bb84-a7ae667521a9"
+ },
+ "S23": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "37d72d03-29ae-48d1-9a48-66c9294d82fa"
+ },
+ "S24": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "afd60e13-2448-4c0f-9aae-2054b91f1ac1"
+ },
+ "S25": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "ffd5f6fb-051c-4c0f-9b82-90038b4cdb84"
+ },
+ "S26": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "cda14e48-b067-48fc-94de-bb8ec090b952"
+ },
+ "S27": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "5c19a347-7423-47e1-b8e1-dba01860bc1a"
+ },
+ "S28": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "5b2087e4-4c07-4e0d-9b2f-79514ce465f5"
+ },
+ "S29": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "086e2393-dc1a-4c55-bf54-1e9a94951db7"
+ },
+ "S30": {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "task_id": "0180954e-dc60-4df6-be68-63562fcafee2"
+ },
+ "S31": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "cf6ea2ca-5011-46ec-96a6-a15c46178de9"
+ },
+ "S32": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "e8f13600-c0c8-427e-98d3-0762ad510805"
+ },
+ "S33": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "2293b5eb-3af1-4f5f-9eaf-138c27885544"
+ },
+ "S34": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "2b96c022-a2db-47a5-981a-03cc6ad8f95e"
+ },
+ "S35": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "4cbd9682-cce7-444e-a878-36283a865b2a"
+ },
+ "S36": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "f2a9eb67-efec-4c86-abad-efa55a72f86d"
+ },
+ "S37": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "2bf318d4-754d-43f3-a1b5-cb2f50a7d144"
+ },
+ "S38": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "614189f6-b70d-4144-87ad-f27209f0ec14"
+ },
+ "S39": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "80bb6782-58c0-4d5e-9022-5173be685833"
+ },
+ "S40": {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "task_id": "04282571-1610-4436-9888-4cffecc6d92e"
+ },
+ "S41": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "f2b074b5-860e-4ecf-afac-16874155dc59"
+ },
+ "S42": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "e28e8dcb-3ccb-406d-a2c7-f5670d649979"
+ },
+ "S43": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "507f592a-f21f-45f6-bbde-dadb86441791"
+ },
+ "S44": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "41899b5b-b6db-48b1-9899-334452904a12"
+ },
+ "S45": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "cf1fca1e-8e56-4b26-ae34-dfdb1d982080"
+ },
+ "S46": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "b84fbf2e-2e19-4cc4-ab86-8a32bd0d33ed"
+ },
+ "S47": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "91cce869-ac2c-4b9c-a2ea-1d068eb5d979"
+ },
+ "S48": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "423f89ba-be77-4f93-99d7-936548513eef"
+ },
+ "S49": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "665e1166-1062-444f-81e3-df207d0f975b"
+ },
+ "S50": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "task_id": "ef7126b3-45ad-41ab-a191-2272c644d057"
+ },
+ "S51": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "38c156c5-ff2c-4cf4-9a23-984d761b8bcb"
+ },
+ "S52": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "3a5cfe49-72e3-48ec-885a-39d62f8f1904"
+ },
+ "S53": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "629106a5-9508-4ac9-97c3-f22f6069ee7f"
+ },
+ "S54": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "860f7b99-23fe-41fe-9608-59717bad2a9a"
+ },
+ "S55": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "470f7ac1-f573-4fec-8990-97f578749f78"
+ },
+ "S56": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "1a3ffa81-d1fe-4b97-9308-3d2ae2d0d9b1"
+ },
+ "S57": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "4aa079dd-9d2d-440d-a654-9ba9cb3868b0"
+ },
+ "S58": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "3819a831-8e12-49e6-adb1-df40f512d774"
+ },
+ "S59": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "6265fd4a-a790-4be1-9806-d27b69bc6468"
+ },
+ "S60": {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "task_id": "56d7fbdb-ebd6-41fe-a5d6-cd21dbc59fd8"
+ }
+}

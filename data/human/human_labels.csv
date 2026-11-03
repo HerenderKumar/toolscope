@@ -1,0 +1,96 @@
+task_id,agent,strategy,label,source,note
+00e13e2e-07fa-4d0b-9863-e966190cffd6,Kimi K2.6,bm25,failure,relabel,"Required Met object search failed (HTTP 410), not recovered; Wikipedia background does not replace it."
+0180954e-dc60-4df6-be68-63562fcafee2,Kimi K2.6,bm25,success,relabel,Gaming news fetched from Gcores and The Verge; other feeds failing does not undo that.
+04282571-1610-4436-9888-4cffecc6d92e,Kimi K2.6,bm25,failure,first_pass,"Geocoding OK, but the bike route is invalid (expressways) and no corrected route is given."
+08644b1a-ac5e-45a9-8ad1-3a3942e8d366,Kimi K2.6,bm25,failure,first_pass,No products or prices retrieved; goods.xlsx holds agent-supplied data.
+086e2393-dc1a-4c55-bf54-1e9a94951db7,Kimi K2.6,bm25,failure,first_pass,"Document read OK, but the answer is empty: never says who gave no gift."
+0b21b741-440b-460e-8bad-fa70f99dd01c,Kimi K2.6,bm25,failure,first_pass,Only tool searches; no Bazi result; empty answer.
+0dafdf66-af3a-4110-ab79-d9c037f7bc62,Kimi K2.6,bm25,success,relabel,"Station codes, date and tickets OK; correctly reports no direct train and gives the earliest alternatives."
+0e3287cb-c0ff-4d2a-8c3d-d8833014a7b0,Kimi K2.6,bm25,failure,first_pass,"No trend data, word cloud failed, no Word document; key steps not done."
+10b5dbf7-0bac-4b25-835f-e806967ad340,Kimi K2.6,bm25,failure,first_pass,"Outbound tickets OK, but every return query failed; return times invented, attractions not retrieved."
+15aa8d9b-330c-48eb-9b2a-e732f85021aa,Kimi K2.6,bm25,failure,first_pass,"No shopping search; no listings, prices or links; products named from memory."
+17a4aef0-bb60-47b1-9b47-3686bca29db3,Kimi K2.6,bm25,failure,first_pass,"Douban data and PDF OK, but the required Word create/convert steps were skipped."
+1a3ffa81-d1fe-4b97-9308-3d2ae2d0d9b1,Kimi K2.6,bm25,failure,relabel,Transcripts empty (charCount 0) and not recovered; the summary is not transcript-based.
+1ef11556-37d6-4585-b4b2-cf2f782141e6,Kimi K2.6,bm25,success,relabel,"Directory listed, all 3 PDFs read, comparison report written at the right path."
+1f6a6db5-05b5-4a8d-a6ef-fbb5d823ad1d,Kimi K2.6,bm25,failure,first_pass,"Geocoding and nearby search OK, but no restaurant route or ratings; unsourced advice."
+2293b5eb-3af1-4f5f-9eaf-138c27885544,Kimi K2.6,bm25,failure,first_pass,"Weather OK, but no geocoding or POI lookup and the map failed; itinerary unsourced."
+230fb273-b316-4a8f-9297-89ce5558bc6c,Kimi K2.6,bm25,success,first_pass,"Challenge retrieved, correct solution explained, markdown file written."
+29fa007d-5caf-41a0-b107-e9388305c6c5,Kimi K2.6,bm25,success,relabel,Jiyan profile and character info (incl. build guide) retrieved; team and Echo set given.
+2b96c022-a2db-47a5-981a-03cc6ad8f95e,Kimi K2.6,bm25,failure,first_pass,WHOIS and sitemap blocked; the report uses unsourced domain facts.
+2bf318d4-754d-43f3-a1b5-cb2f50a7d144,Kimi K2.6,bm25,failure,first_pass,Partial cancer info fetched; no report written; empty answer.
+2e190c2a-8aab-44e1-896d-671cb3fcc495,Kimi K2.6,bm25,success,first_pass,Diff and both logs read; correctly finds the database error only in yesterday's log.
+2f8db365-6b8b-4188-8812-4efcf91a40bd,Kimi K2.6,bm25,failure,first_pass,No requirements or prices retrieved; build and budget from memory.
+31086c2d-e183-42c3-9ee7-7c1278c4317f,Kimi K2.6,bm25,success,first_pass,Directory listing returns one WAV file; reported correctly.
+36d95b6f-8cc6-40d0-bb64-77d3fa162f8d,Kimi K2.6,bm25,success,relabel,WHOIS for both domains OK; the answer uses the comparison to judge authenticity.
+37d72d03-29ae-48d1-9a48-66c9294d82fa,Kimi K2.6,bm25,failure,first_pass,"Market data and report OK, but the required current-time lookup is missing."
+3819a831-8e12-49e6-adb1-df40f512d774,Kimi K2.6,bm25,failure,first_pass,Browser workflow not done; no Amazon prices (Apple retail prices substituted).
+38c156c5-ff2c-4cf4-9a23-984d761b8bcb,Kimi K2.6,bm25,success,relabel,"Price history, financial statements and news calls OK; full report delivered."
+39c4c9fc-9074-474a-850f-4b088d499d8c,Kimi K2.6,bm25,failure,first_pass,"NVDA price correct, but no tool resolved the company name to the ticker (strict)."
+3a5cfe49-72e3-48ec-885a-39d62f8f1904,Kimi K2.6,bm25,failure,first_pass,No image decoding or description; empty answer.
+3c65e618-2ed0-444b-b7c7-6135d3841976,Kimi K2.6,bm25,failure,first_pass,No recipe retrieved; menu and instructions from memory.
+41899b5b-b6db-48b1-9899-334452904a12,Kimi K2.6,bm25,failure,first_pass,"Ticker data OK, but the required P/B ratio is missing."
+423f89ba-be77-4f93-99d7-936548513eef,Kimi K2.6,bm25,failure,first_pass,"Document, table and image OK, but footnotes are fake numbered text, not real footnotes."
+470f7ac1-f573-4fec-8990-97f578749f78,Kimi K2.6,bm25,failure,relabel,Required current-time lookup missing; only ticker data retrieved.
+49cdaab7-39f0-4556-a3bb-7bd523916b32,Kimi K2.6,bm25,success,first_pass,random_choices picked David from the five names; winner announced.
+4aa079dd-9d2d-440d-a654-9ba9cb3868b0,Kimi K2.6,bm25,failure,first_pass,Compared WebCanvas instead of the requested Mind2Web2.
+4cbd9682-cce7-444e-a878-36283a865b2a,Kimi K2.6,bm25,success,relabel,Wikipedia causes retrieved; three causes with references written to Rome.md.
+4d7582c4-5013-4275-9621-1e7fbb5fb0c1,Kimi K2.6,bm25,failure,first_pass,"Dataset downloaded with curl, but the task requires wget."
+4de2e9f7-f3ea-4d02-8532-0a1b0b530609,Kimi K2.6,bm25,success,first_pass,"Workbook read, stacked bar chart created and saved to sale.png."
+507f592a-f21f-45f6-bbde-dadb86441791,Kimi K2.6,bm25,success,relabel,CSV read OK; the email given matches the reference.
+567c79c3-3afb-4979-90cf-88ca49cb701d,Kimi K2.6,bm25,failure,first_pass,No component list or docs retrieved; tutorial written from memory.
+56d7fbdb-ebd6-41fe-a5d6-cd21dbc59fd8,Kimi K2.6,bm25,failure,first_pass,"Deepwiki returned a security checkpoint, so the required Deepwiki reading failed."
+5a2720cd-20f1-49e7-a3fc-8e74af2217f6,Kimi K2.6,bm25,failure,first_pass,"Meeting-point search OK, but no input coordinates or reverse-geocoded address."
+5b2087e4-4c07-4e0d-9b2f-79514ce465f5,Kimi K2.6,bm25,failure,first_pass,All OP.GG calls 'tool not found'; builds from memory.
+5c19a347-7423-47e1-b8e1-dba01860bc1a,Kimi K2.6,bm25,failure,relabel,Picked a Dec 2025 paper as most recent although Oct 2026 papers were found.
+614189f6-b70d-4144-87ad-f27209f0ec14,Kimi K2.6,bm25,success,relabel,Zhihu and Bilibili rankings retrieved; tech recommendations from both.
+6265fd4a-a790-4be1-9806-d27b69bc6468,Kimi K2.6,bm25,failure,first_pass,No current trends retrieved; answer from early-2025 memory.
+629106a5-9508-4ac9-97c3-f22f6069ee7f,Kimi K2.6,bm25,failure,first_pass,No tool calls; advice from memory.
+665e1166-1062-444f-81e3-df207d0f975b,Kimi K2.6,bm25,success,relabel,"Wikipedia article retrieved, summarised and written to the markdown file."
+6b7fc66e-fe96-4403-9a52-df5afa53ab68,Kimi K2.6,bm25,success,relabel,Trial details retrieved by NCT ID; summary written to the markdown file.
+7180c69a-bbf2-4912-a0ca-a6345c5fe7f1,Kimi K2.6,bm25,success,relabel,Wikipedia sections retrieved; history webpage written to ai.html.
+71a7a42a-54af-4552-ad9b-d36f4912cc1c,Kimi K2.6,bm25,success,relabel,"BibTeX read, converted to APA, all 7 references written to the Word file."
+7bda47e8-1b8b-4f1f-b67c-573a81417d36,Kimi K2.6,bm25,failure,first_pass,Full paper not found; the introduction is based on the abstract only.
+80bb6782-58c0-4d5e-9022-5173be685833,Kimi K2.6,bm25,failure,first_pass,"Balance and chart OK, but the CNY/USD rate direction was reversed in the conversion."
+83da9f72-640f-439d-861e-97b449e02da7,Kimi K2.6,bm25,success,relabel,"Page browsed, images and styles extracted after retries; report written."
+84326f9f-d4b7-4dc8-b9e0-3c8868a3f79f,Kimi K2.6,bm25,success,relabel,Story and 100 comments retrieved; views and disagreements summarised.
+860f7b99-23fe-41fe-9608-59717bad2a9a,Kimi K2.6,bm25,success,relabel,Deepwiki checkpoint recovered via Context7; mindmap generated.
+88ccea26-01f6-4db6-ba95-6b2a73c0488b,Kimi K2.6,bm25,failure,first_pass,"Analysis covers ~6 months, not the requested past year."
+8aaa7e7f-aff7-4735-9dc8-8bb5f474506c,Kimi K2.6,bm25,success,relabel,Recovered via Hacker News search and top stories; LLM news summarised.
+8f26fc1a-fdaa-4e7a-ae53-7b4cacb15334,Kimi K2.6,bm25,failure,first_pass,All three modes returned the same car route; final uses unsourced estimates.
+90098a9c-2a37-4655-82b1-6b58c5154660,Kimi K2.6,bm25,failure,first_pass,No shadcn/ui docs retrieved; code written from memory.
+91cce869-ac2c-4b9c-a2ea-1d068eb5d979,Kimi K2.6,bm25,failure,first_pass,"Flowchart validated, but the required SVG output is not shown."
+99d7541a-73c0-4ea1-8002-a70a041f3ffc,Kimi K2.6,bm25,failure,first_pass,"4 analyses OK, but no summary document written; MFCC dimensions reversed."
+9a18862e-22ce-46e7-b46a-72c6f5c79b23,Kimi K2.6,bm25,success,first_pass,read_file located line 10 exactly; line reproduced correctly.
+9bc7feb8-2db9-4c5b-8ad9-44ff15748bf6,Kimi K2.6,bm25,success,relabel,CNN Wikipedia article retrieved; example code written to the requested path.
+9fc8b7f3-776c-4756-bb84-a7ae667521a9,Kimi K2.6,bm25,failure,first_pass,"Team page and cv.md OK, but the required resume page was never fetched."
+a93169d7-af1f-43f4-b595-1b5db07aa7d5,Kimi K2.6,bm25,success,first_pass,"Git status, log and report all completed and consistent."
+a984d31b-f3e9-47d4-8726-19a06e6babc5,Kimi K2.6,bm25,failure,first_pass,No source material retrieved; slide facts from memory.
+ab11def3-6727-4521-ae9b-2ffc6ae5b938,Kimi K2.6,bm25,success,relabel,Ticker news and 7-day sentiment retrieved; negative news and index trend reported.
+afd60e13-2448-4c0f-9aae-2054b91f1ac1,Kimi K2.6,bm25,failure,first_pass,No place geocoding; charging plan has a gap beyond the 300 km range.
+b050f277-0a92-4cfc-933b-5f01430e77dd,Kimi K2.6,bm25,success,first_pass,"Both DOCX→PDF conversions, the merge and the move succeeded."
+b276e772-28b5-42fd-bb85-fd73e017fe25,Kimi K2.6,bm25,success,first_pass,"Gold price retrieved; 9.5 g value correctly computed (~$1,184)."
+b6281fad-0da4-4fd4-b669-7e4ff9083a82,Kimi K2.6,bm25,success,first_pass,Silver price retrieved; 18.9 g value correctly computed (~$29.93).
+b84fbf2e-2e19-4cc4-ab86-8a32bd0d33ed,Kimi K2.6,bm25,failure,first_pass,Intersection not geocoded; neighbourhood analysis timed out; results unverified.
+be3f2275-15a4-4e05-b3cb-b0eeb9109d3a,Kimi K2.6,bm25,failure,first_pass,"Wrong date: next Wednesday is 4 Nov, not 11 Nov; tickets for the wrong day."
+c4d6c051-e2d4-4f52-b897-e945f402b858,Kimi K2.6,bm25,failure,first_pass,"Fear & Greed OK, but news search failed; no headlines."
+cab818f4-ee48-440b-a37e-564c4edf401a,Kimi K2.6,bm25,success,relabel,Weather forecast retrieved; clothing advice given.
+cda14e48-b067-48fc-94de-bb8ec090b952,Kimi K2.6,bm25,failure,first_pass,"Canvas drawing OK, but no picture exported; step cap hit, empty answer."
+cf1fca1e-8e56-4b26-ae34-dfdb1d982080,Kimi K2.6,bm25,failure,first_pass,"Comparison written, but no security scan, which the user asked to prioritise."
+cf6ea2ca-5011-46ec-96a6-a15c46178de9,Kimi K2.6,bm25,success,relabel,The Verge and InfoQ feeds retrieved; AI stories summarised.
+d116bda4-e70c-4ef1-ab1a-b68b4855e1bf,Kimi K2.6,bm25,success,relabel,Sheet read; Sophia's BMI 20.76 matches the reference.
+d1ea5598-27d2-4a21-ae9d-be30ec099ee3,Kimi K2.6,bm25,failure,relabel,"Articles are from 30 Oct, not today (1 Nov)."
+dda8ea55-629c-4ae8-ab87-0c81477ae615,Kimi K2.6,bm25,failure,first_pass,"No coordinates or addresses; parking fees and types missing; 'within 1 km' lot is 1,009 m away."
+de75630e-b91e-4cc7-85b1-5d02c2455392,Kimi K2.6,bm25,success,first_pass,All three Maven versions retrieved and compared correctly.
+e023dd0e-1212-47e0-a73c-97739c78b849,Kimi K2.6,bm25,failure,first_pass,News search failed; PPTX is a template needing manual updates.
+e28e8dcb-3ccb-406d-a2c7-f5670d649979,Kimi K2.6,bm25,success,relabel,Finance news retrieved; sentiment and entities analysed.
+e8f13600-c0c8-427e-98d3-0762ad510805,Kimi K2.6,bm25,failure,first_pass,Meal plan only covers Monday; rest of the week unfinished.
+e9df60b1-37a6-4b10-aff0-d432fa79d400,Kimi K2.6,bm25,success,relabel,arXiv papers retrieved; influential papers and trends analysed.
+ea6e95fa-2791-4f66-b897-2244a17f9b51,Kimi K2.6,bm25,failure,first_pass,"Both searches failed; no Amazon GPU links, only manual instructions."
+ec6f4fe5-e650-48b1-8805-285d8f52eb10,Kimi K2.6,bm25,failure,first_pass,No Context7 docs retrieved; saved code skips JWT verification.
+ef7126b3-45ad-41ab-a191-2272c644d057,Kimi K2.6,bm25,success,relabel,CNBC and Hacker News plus market data retrieved; brief written.
+f2a9eb67-efec-4c86-abad-efa55a72f86d,Kimi K2.6,bm25,failure,first_pass,Partial price data only; no report written; empty answer.
+f2b074b5-860e-4ecf-afac-16874155dc59,Kimi K2.6,bm25,failure,first_pass,"Airbnb failed, no time lookup; only general advice, wrong check-in date."
+fa451c3f-23c2-4b03-bcb6-60b49e3a142f,Kimi K2.6,bm25,success,relabel,WebArena.pdf read after a retry; recent arXiv papers found and reported.
+fab605cf-d337-4ac1-beba-b3f563eaffff,Kimi K2.6,bm25,success,relabel,"Card looked up and image retrieved; effect, ATK, DEF given."
+fbe982c3-4142-40ec-8541-e06d7ab2e399,Kimi K2.6,bm25,failure,first_pass,"Files written, but an October update is mislabelled as July; quarter's news not established."
+ffd5f6fb-051c-4c0f-9b82-90038b4cdb84,Kimi K2.6,bm25,failure,first_pass,No time or almanac lookup; no wedding dates given.

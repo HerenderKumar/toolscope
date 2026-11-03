@@ -1,0 +1,16 @@
+tool_name,tool_ids,equivalent,rationale
+add_table,ppt/add_table word-document-server/add_table,no,Different input/output: a slide in a presentation vs a Word document.
+create_directory,desktop-commander/create_directory filesystem/create_directory,yes,"Same job, same input (path) and output."
+fetch,biomcp/fetch fetch/fetch,no,Different input: biomedical record id vs URL.
+get_file_info,desktop-commander/get_file_info filesystem/get_file_info,yes,"Same job (file metadata), same input (path)."
+get_file_info,okppt/get_file_info filesystem/get_file_info,yes,"VERIFIED: same job (file metadata such as existence and size), same input (a file path); only the hosting server differs."
+get_price_history,yfmcp/get_price_history investor/get_price_history,yes,"Same job (historical prices for a ticker), same input (symbol + period)."
+list_directory,desktop-commander/list_directory filesystem/list_directory,yes,"Same job, same input (path) and output."
+list_directory,basic-memory/list_directory filesystem/list_directory,no,"Different input: a knowledge-base project folder, not a filesystem path."
+move_file,desktop-commander/move_file filesystem/move_file,yes,"Same job, same input (source, destination)."
+read_file,desktop-commander/read_file filesystem/read_file,yes,"Same job, same input (path) and output. (desktop-commander can also read URLs; a superset.)"
+read_multiple_files,desktop-commander/read_multiple_files filesystem/read_multiple_files,yes,"Same job, same input (list of paths)."
+search,biomcp/search yfmcp/search hackernews/search web3-research-mcp/search,no,"Different jobs: biomedical, finance, Hacker News, web3 search."
+search_files,desktop-commander/search_files filesystem/search_files,yes,"Same job (find files by name pattern), same input (path + pattern)."
+search_papers,arxiv-mcp-server/search_papers mcp-simple-arxiv/search_papers,yes,"Same job (search arXiv), same input (query)."
+write_file,desktop-commander/write_file filesystem/write_file,yes,"Same job, same input (path + content)."

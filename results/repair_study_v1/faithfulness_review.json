@@ -1,0 +1,362 @@
+{
+  "reviewer": "Codex assistant; source-card comparison, not author/human annotation",
+  "scope": "Before this study ranking; original description, server card and schema only. No execution validation. Existing texts retained even when concerns found.",
+  "translations": [
+    {
+      "tool_id": "12306-mcp/get-station-code-of-citys",
+      "raw_sha256": "acb12f25dc0f17a8f624f8901940c058d3d039d8e66399487e07c5016ffebbd1",
+      "translation": "Query the station code for a city by providing its Chinese name. This interface is primarily used when a user provides a **city name** as either the departure or arrival point to prepare the `station_code` parameter.",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-36kr-trending",
+      "raw_sha256": "7259c0cd6917682b7172a2624432fa0d9a89f3e6deca9a8782245e99e828868b",
+      "translation": "Get 36Kr Hot List, providing hot information in entrepreneurship, business, and technology fields, including financing and investment dynamics, analysis of emerging industries, and innovation in business models.",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-bbc-news",
+      "raw_sha256": "06c30cfbdd4c5e904dacd2d59c5464c215b0ff63753d2beec68d013a6ebf70b0",
+      "translation": "Get BBC News providing global news, UK news, business, politics, health, education, technology, entertainment and more.",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-bilibili-rank",
+      "raw_sha256": "e93be24aa55aa28af7e96f09d20af7b6f7d993f866d321061a7b924c0b43aeb1",
+      "translation": "Get Bilibili video rankings, including popular videos from multiple sections such as site-wide, animation, music and gaming, reflecting current content consumption trends among young people.",
+      "corrected": true,
+      "notes": "Translated the untranslated section names; corrected a source-word substitution in the raw output.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-gcores-new",
+      "raw_sha256": "5d6f3fb0306438bb6a6f16ceac7e72b9504e99035a94a2917d0dd498ac69b2e9",
+      "translation": "Get gaming-related information from Gcores, including in-depth content on video game reviews, player culture, game development and gaming-related products.",
+      "corrected": true,
+      "notes": "Corrected the mistranslated proper name and retained the broader meaning of gaming-related products.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-ifanr-news",
+      "raw_sha256": "761ffd976ad09f4fb8de28178bff9fbfbf629d967eb819c23f82ecc2c3baec8c",
+      "translation": "Get the latest tech headlines from iFanr, including the newest tech products, digital devices, internet trends and other front-line tech information.",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-juejin-article-rank",
+      "raw_sha256": "6fec3072b55cdcd1c18f1bff563aea1f1c404390d727d690fbfa2a2cb669f3fb",
+      "translation": "Get the Juejin article rankings, including high-quality Chinese technical articles and tutorials in front-end development, back-end technology, artificial intelligence, mobile development and technical architecture.",
+      "corrected": true,
+      "notes": "Corrected the platform name from Jinjing to Juejin.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-smzdm-rank",
+      "raw_sha256": "3ca6a83bcedb7110bee9f807e0f6970eae1853fbaf7d81c0e70fd63229cf7943",
+      "translation": "Get popular content from SMZDM, including practical Chinese consumer information such as product recommendations, discounts, shopping guides, product reviews and shared consumer experiences.",
+      "corrected": true,
+      "notes": "Corrected the platform name and phrasing without adding parameters or functionality.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "trends-hub/get-weread-rank",
+      "raw_sha256": "c391a37b18f830916f8ca32c91fc4df588d77fd46b1c85676c40a4cb0e7b6bfe",
+      "translation": "Get WeChat Reading Ranking, including popular novels, best-selling books, new book recommendations and reading data & ranking information for various literary works",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "wuwa-mcp/get_character_info",
+      "raw_sha256": "9bc576f2e8620233707998bab7ec796f98ba4624b0410126030174b1f07c1418",
+      "translation": "Retrieve detailed character information from Kujiequ, including character skills and progression guides, and return it in Markdown format.\n\nArgs:\n    character_name: The Chinese name of the character to look up.\n\nReturns:\n    A Markdown string containing character information,\n    or an error message if the character cannot be found or data retrieval fails.",
+      "corrected": true,
+      "notes": "Kept the source site name as a transliteration rather than the erroneous literal library block. No game identity or example added.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "ygocdb/get_card_image",
+      "raw_sha256": "9375ddce0d292fdd3f63af458ab59a6ec12ec686f6a51bad36c3b623c3cae572",
+      "translation": "Get Yu-Gi-Oh! card image through card ID",
+      "corrected": false,
+      "notes": "Meaning retained; no functionality or parameters added in review.",
+      "status": "reviewed_before_ranking"
+    },
+    {
+      "tool_id": "ygocdb/search_cards",
+      "raw_sha256": "b9fcda7e9593505137a646746bc4e1c755f0ea3409786718ba43435578a38a05",
+      "translation": "Search for Yu-Gi-Oh! cards by keyword, including card names and effect text.",
+      "corrected": true,
+      "notes": "Corrected the game name from literal Game King to Yu-Gi-Oh!.",
+      "status": "reviewed_before_ranking"
+    }
+  ],
+  "structured": [
+    {
+      "tool_id": "12306-mcp/get-station-code-of-citys",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "2a79990b96fb3179b73658eee6c2fd1aa2e057f4eab4775cb115b7d179456eff"
+    },
+    {
+      "tool_id": "arxiv-mcp-server/download_paper",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "26cdf19fece074d81b0f8b5f263d1f4f958dc82173c8521092cdd5a83d372a23"
+    },
+    {
+      "tool_id": "biomcp/variant_searcher",
+      "status": "concern",
+      "notes": "Drops the explicit prerequisite to use think first.",
+      "rewrite_sha256": "41790c1225186f5e08767803d8ff5a443d29a4348011bb4c2ae1515d09010432"
+    },
+    {
+      "tool_id": "calculator/calculate",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "406f1ffc3e977fc5a51a76216e13de14f5b05e57f8b2255d8a04d69e0f97c26b"
+    },
+    {
+      "tool_id": "desktop-commander/read_file",
+      "status": "concern",
+      "notes": "Omits allowed-directory and URL-mode restrictions, including isUrl and full-URL reads.",
+      "rewrite_sha256": "97ea852bd548c58b7b14832ad5ba3e928826d5aba3e91748aca7b43904aa1471"
+    },
+    {
+      "tool_id": "desktop-commander/write_file",
+      "status": "concern",
+      "notes": "Shortens the prescribed chunking workflow and continuation guidance; example is not a validated invocation.",
+      "rewrite_sha256": "b1613d3682d5f888f57a0fb6005c207130b9cf290c9d6cbe730abb1b46105823"
+    },
+    {
+      "tool_id": "duckduckgo-search/duckduckgo_web_search",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "b9cb2e53984f88cd633189afda841bff5a8836a663b1d977c2c82cb92e31be2c"
+    },
+    {
+      "tool_id": "fetch/fetch",
+      "status": "concern",
+      "notes": "States a default HTML conversion behavior not explicitly fixed by this card.",
+      "rewrite_sha256": "8b6a3e80178f6190a1b897e8ceaaccbc7a4e045f45450dde5371cfa89b7eb867"
+    },
+    {
+      "tool_id": "filesystem/read_file",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "97d2505bb96927277fc7040918029f081ea2d7db4b84b9a4a084100bc41977c4"
+    },
+    {
+      "tool_id": "filesystem/write_file",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "4345a297d8d6f5a20b58f28368401da8bb561ab3a1152f62676d0e4c48136d93"
+    },
+    {
+      "tool_id": "hackernews/getStories",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "9368a4a50fedf288db0f58636b45ce0a0833a1129989e1ebd4e574e0545c1b6e"
+    },
+    {
+      "tool_id": "osm-mcp-server/find_nearby_places",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "971375cd3b7e19e850f5638be68734c8fc021444fdcead80bd71d209b180c3e6"
+    },
+    {
+      "tool_id": "osm-mcp-server/geocode_address",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "2bc4a94c15560c0d9693005d0489ac710f4716cb5f30a855295d5814173984b5"
+    },
+    {
+      "tool_id": "osm-mcp-server/get_route_directions",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "f2a6e4416f4fa6d82c68124ecda115eada1a8b38e5ee1156a78961e3149ab803"
+    },
+    {
+      "tool_id": "osm-mcp-server/reverse_geocode",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "307e5a472d8ba6dd21e1268279328b118a44049c73b41ea3362d599117363a8f"
+    },
+    {
+      "tool_id": "osm-mcp-server/search_category",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "950d3277c71bd1f17a22ba0b27a1adfc0741ae4825a64ba9ae39d95e86971954"
+    },
+    {
+      "tool_id": "playwright/playwright_click",
+      "status": "concern",
+      "notes": "Success-confirmation output is not specified by the card.",
+      "rewrite_sha256": "ecd54807a961ada10a0d78ae23953e2f357e9f8d971ec010e3fcb6377b1ee790"
+    },
+    {
+      "tool_id": "playwright/playwright_fill",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "175330ab5929546b46916d3afb8dc1008681a0603cf29f6f0ed6602a76716248"
+    },
+    {
+      "tool_id": "playwright/playwright_get_visible_html",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "56005aa07f1d1b9a277ea6238fe3a0cfad3af8706b8d85318bf24db03ccb9ae5"
+    },
+    {
+      "tool_id": "playwright/playwright_navigate",
+      "status": "concern",
+      "notes": "Claim that navigation returns page content is not established by the card.",
+      "rewrite_sha256": "6405a2d5133039265ae759ccb8f1d2718b854eab6eaa5863b717d5e93d45aced"
+    },
+    {
+      "tool_id": "playwright/playwright_screenshot",
+      "status": "concern",
+      "notes": "Return-string shape and saving semantics are stronger than the schema descriptions establish.",
+      "rewrite_sha256": "4a356e268d75227af535470cedac754d5f84e3b9abe896b828e87cd440d41b0d"
+    },
+    {
+      "tool_id": "ppt/create_presentation",
+      "status": "concern",
+      "notes": "Lifecycle and non-modification behavior are not established by this short card.",
+      "rewrite_sha256": "bc648242f9f3cacebcd421916af16d58502624edc0a3c3e079eee3c98b2e2013"
+    },
+    {
+      "tool_id": "ppt/save_presentation",
+      "status": "concern",
+      "notes": "Assumes current-presentation semantics and omits optional presentation_id.",
+      "rewrite_sha256": "a4a8165fbb28f7b93d23ff3856efe5cd6d400f37b9f61db1cb86d4ab25b1e6d2"
+    },
+    {
+      "tool_id": "time/get_current_time",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "a14aa9130e0d5a6f31e92c972d6aeea4d35b690be82b83ebfa6344a1d5053506"
+    },
+    {
+      "tool_id": "trends-hub/get-36kr-trending",
+      "status": "concern",
+      "notes": "The example category value technology is not documented as an accepted value.",
+      "rewrite_sha256": "24624431f36fc98fd2c770d113c9c304693e5ce2f7e90b8cb78fde054ac7e219"
+    },
+    {
+      "tool_id": "trends-hub/get-bbc-news",
+      "status": "concern",
+      "notes": "The edition is not documented as regional.",
+      "rewrite_sha256": "f6ba767605c90501d612a027eb7a655818040a47a6b43a6f2999fe70bf88e7e6"
+    },
+    {
+      "tool_id": "trends-hub/get-bilibili-rank",
+      "status": "concern",
+      "notes": "The example category values and exclusion of individual details are not established.",
+      "rewrite_sha256": "a1960f3a6c00de2edf8f94e9aab571a670c55f711813c49c3ee271a861bf35ea"
+    },
+    {
+      "tool_id": "trends-hub/get-gcores-new",
+      "status": "concern",
+      "notes": "Adds quality claims and an exact list return shape not specified by the card.",
+      "rewrite_sha256": "28f0dc72c0d26fb3195a9f87b8f3ad76e0f96e7cf886c8c7c564308fa70c2100"
+    },
+    {
+      "tool_id": "trends-hub/get-ifanr-news",
+      "status": "concern",
+      "notes": "Infers limit/offset semantics and ranking order from names with empty parameter descriptions.",
+      "rewrite_sha256": "5313b8662ddf70ab12f82f6ae19f49595e13bf57a816077c2c652b0662b619e7"
+    },
+    {
+      "tool_id": "trends-hub/get-juejin-article-rank",
+      "status": "concern",
+      "notes": "Infers filtering behavior from category_id with an empty description.",
+      "rewrite_sha256": "e0f67fc3fb025127cb0079a73cefb816fa4f6ee2db6e86d32f8f72c2e27ad1ab"
+    },
+    {
+      "tool_id": "trends-hub/get-smzdm-rank",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "5e5f370fc7acca422d7b6c6a70c069240bae3892388ce215b67729a96da1219a"
+    },
+    {
+      "tool_id": "trends-hub/get-weread-rank",
+      "status": "concern",
+      "notes": "The example category value fiction is not documented as accepted.",
+      "rewrite_sha256": "8707499eb556f12a6b24ade0b017ba137872dd39cf80bd5168f6e2d3a7e51130"
+    },
+    {
+      "tool_id": "whois/whois_domain",
+      "status": "concern",
+      "notes": "Adds output fields, availability use and unregistered-domain limitations not documented by the card.",
+      "rewrite_sha256": "cfe41a942b7feb38e0c7d9def10aaa82c5f9573aac2a690d7a6b9717b9438336"
+    },
+    {
+      "tool_id": "wikipedia/search_wikipedia",
+      "status": "concern",
+      "notes": "Adds title/summary return shape and a no-full-text restriction not documented by the card.",
+      "rewrite_sha256": "235dca7b18d17fced66971cfa30cc85fbd551df5f8bd49b6d29abde63f703235"
+    },
+    {
+      "tool_id": "word-document-server/add_paragraph",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "bf7763e0fdccbc47eccc2d78a556185dcacc29667e9e88c8465079e85eb532d1"
+    },
+    {
+      "tool_id": "word-document-server/add_picture",
+      "status": "concern",
+      "notes": "Width units and success confirmation are not documented by the card.",
+      "rewrite_sha256": "582354e1ea383052bcd22e761596dcbefecf789ada97fbc96349d417ae87b95c"
+    },
+    {
+      "tool_id": "word-document-server/create_document",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "5fcaf5e75bd371bdfd47ce7adcded391471ab738888954d068897629494e0751"
+    },
+    {
+      "tool_id": "wuwa-mcp/get_character_info",
+      "status": "concern",
+      "notes": "Server supports the game identity, but the site name is mistransliterated and the named-character example is not established by the card.",
+      "rewrite_sha256": "df8fbee2eb54bbf6c1edd5aee526bdba8eeaeabbe8f957a689033a555998d0aa"
+    },
+    {
+      "tool_id": "yahoo-finance/get_cashflow",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "0c9c8cb927e369519b4300b5f9496cf10ceea72d39430358b533ebcb79c84262"
+    },
+    {
+      "tool_id": "yahoo-finance/get_income_statement",
+      "status": "concern",
+      "notes": "Changes the documented literal frequency trainling to trailing; runtime acceptance was not checked.",
+      "rewrite_sha256": "0551dcce322904d0f2483aedc06cca2b6dc8bc03dc0fe562e9b94bb6dbad8d67"
+    },
+    {
+      "tool_id": "yahoo-finance/get_recommendations",
+      "status": "concern",
+      "notes": "Professional investment advice overstates what analyst recommendations establish.",
+      "rewrite_sha256": "8e203925993c23feefc29b1d322b5fce8024817a195781075321e5e6eb32e8fa"
+    },
+    {
+      "tool_id": "ygocdb/get_card_image",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "0d0bee2f9c10dcd288c67423e7c76f08f7dae6a0cf3344463c769d5fa9a218ee"
+    },
+    {
+      "tool_id": "ygocdb/search_cards",
+      "status": "core_supported",
+      "notes": "Core purpose and parameters supported by the card. Illustrative examples are not execution-tested.",
+      "rewrite_sha256": "8af6dfbe4804680e0b31fdea50357136caf41f0054725b1036a8cb8afc61ea95"
+    }
+  ]
+}

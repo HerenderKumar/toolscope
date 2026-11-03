@@ -1,0 +1,80 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+data/raw/
+indexes/
+logs/
+third_party/
+node_modules/
+ui/dist/
+docker/wheels/
+
+# --- Local support files: kept on disk, not published (cleanup, 3 Nov 2026) ---
+# Assistant / session notes
+/CLAUDE.md
+/AGENTS.md
+/PROGRESS.md
+/ROADMAP.md
+/RESOURCES.md
+/DECISIONS.md
+/paper/notes.md
+/recommendations/
+# Run monitors and controllers
+/scripts/agent_queue.sh
+/scripts/overnight.sh
+/scripts/pause_all.sh
+/scripts/resume_all.sh
+/scripts/progress_guard.py
+/scripts/task_logger.py
+/scripts/task_status.py
+/scripts/kimi_full.sh
+/scripts/kimi_semantic.sh
+/src/toolscope/agent/supervisor.py
+# One-off debugging
+/scripts/probe_tools.py
+/scripts/probe_versions.py
+/scripts/smoke_servers.py
+/scripts/record_server_health.py
+/scripts/replay_lengths.sh
+/scripts/replay_result_lengths.py
+/scripts/summarize_replay.py
+/src/toolscope/agent/census.py
+# Abandoned diagnosis audit (D-083)
+/scripts/prepare_diagnosis_audit.py
+/scripts/score_diagnosis_audit.py
+/scripts/diagnosis_audit_form.html
+/src/toolscope/diagnosis/audit.py
+/results/diagnosis_audit_v1/
+# Tests of the files above
+/tests/test_supervisor.py
+/tests/test_progress_guard.py
+/tests/test_task_status.py
+/tests/test_run_status.py
+/tests/test_census.py
+/tests/test_replay_result_lengths.py
+/tests/test_diagnosis_audit.py
+# Verification records and run diaries
+/results/paid_run_log.md
+/results/error_review.md
+/results/preflight_calls.jsonl
+/results/replay_lengths.jsonl
+/results/replay_search_lengths_bm25.json
+/results/replay_search_lengths_semantic.json
+/results/demo_http_20261103.json
+/results/manuscript_20261103.json
+/results/packaging_20261103.json
+/results/archive/
+# Scratch / build output / unused
+/tmp/
+/output/
+/package.json
+/package-lock.json
+/paper/figures/*
+!/paper/figures/ui_whatif.png
+# Not published by author's choice
+/data/human/*.xlsx
+/results/repair_study_v1/measurements.jsonl
+/results/diagnosis_v3/failure_labels.jsonl

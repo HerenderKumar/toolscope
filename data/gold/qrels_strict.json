@@ -1,0 +1,469 @@
+{
+ "00e13e2e-07fa-4d0b-9863-e966190cffd6": {
+  "met-museum/get-museum-object": 1,
+  "met-museum/search-museum-objects": 1
+ },
+ "0180954e-dc60-4df6-be68-63562fcafee2": {
+  "trends-hub/get-bilibili-rank": 1,
+  "trends-hub/get-douyin-trending": 1,
+  "trends-hub/get-gcores-new": 1,
+  "trends-hub/get-weibo-trending": 1
+ },
+ "04282571-1610-4436-9888-4cffecc6d92e": {
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/get_route_directions": 1,
+  "osm-mcp-server/reverse_geocode": 1
+ },
+ "08644b1a-ac5e-45a9-8ad1-3a3942e8d366": {
+  "excel/excel_write_to_sheet": 1,
+  "trends-hub/get-smzdm-rank": 1
+ },
+ "086e2393-dc1a-4c55-bf54-1e9a94951db7": {
+  "word-document-server/get_document_text": 1
+ },
+ "0b21b741-440b-460e-8bad-fa70f99dd01c": {
+  "Bazi/getBaziDetail": 1
+ },
+ "0dafdf66-af3a-4110-ab79-d9c037f7bc62": {
+  "12306-mcp/get-station-code-by-names": 1,
+  "12306-mcp/get-tickets": 1
+ },
+ "0e3287cb-c0ff-4d2a-8c3d-d8833014a7b0": {
+  "mcp-server-chart/generate_word_cloud_chart": 1,
+  "trends-hub/get-weread-rank": 1,
+  "word-document-server/add_paragraph": 1,
+  "word-document-server/add_picture": 1,
+  "word-document-server/convert_to_pdf": 1,
+  "word-document-server/create_document": 1
+ },
+ "10b5dbf7-0bac-4b25-835f-e806967ad340": {
+  "12306-mcp/get-current-date": 1,
+  "12306-mcp/get-station-code-of-citys": 1,
+  "12306-mcp/get-tickets": 1,
+  "osm-mcp-server/find_nearby_places": 1,
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/get_route_directions": 1,
+  "osm-mcp-server/reverse_geocode": 1
+ },
+ "15aa8d9b-330c-48eb-9b2a-e732f85021aa": {
+  "playwright/playwright_click": 1,
+  "playwright/playwright_fill": 1,
+  "playwright/playwright_get_visible_html": 1,
+  "playwright/playwright_navigate": 1
+ },
+ "17a4aef0-bb60-47b1-9b47-3686bca29db3": {
+  "trends-hub/get-douban-rank": 1,
+  "word-document-server/add_paragraph": 1,
+  "word-document-server/convert_to_pdf": 1,
+  "word-document-server/create_document": 1
+ },
+ "1a3ffa81-d1fe-4b97-9308-3d2ae2d0d9b1": {
+  "mindmap/convert_markdown_to_mindmap": 1,
+  "youtube-transcript/get_transcript": 1
+ },
+ "1ef11556-37d6-4585-b4b2-cf2f782141e6": {
+  "desktop-commander/list_directory": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/list_directory": 1,
+  "filesystem/write_file": 1,
+  "pdf-reader-mcp/read_pdf": 1
+ },
+ "1f6a6db5-05b5-4a8d-a6ef-fbb5d823ad1d": {
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/get_route_directions": 1,
+  "osm-mcp-server/reverse_geocode": 1,
+  "osm-mcp-server/search_category": 1
+ },
+ "2293b5eb-3af1-4f5f-9eaf-138c27885544": {
+  "osm-mcp-server/find_nearby_places": 1,
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/reverse_geocode": 1,
+  "weather/get_weather_by_city": 1
+ },
+ "230fb273-b316-4a8f-9297-89ce5558bc6c": {
+  "coin-flip/get-daily-challenge": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1
+ },
+ "29fa007d-5caf-41a0-b107-e9388305c6c5": {
+  "wuwa-mcp/get_artifact_info": 1,
+  "wuwa-mcp/get_character_info": 1
+ },
+ "2b96c022-a2db-47a5-981a-03cc6ad8f95e": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "sitemap/get_sitemap_tree": 1,
+  "whois/whois_domain": 1
+ },
+ "2bf318d4-754d-43f3-a1b5-cb2f50a7d144": {
+  "biomcp/article_searcher": 1,
+  "biomcp/trial_searcher": 1,
+  "biomcp/variant_searcher": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1
+ },
+ "2e190c2a-8aab-44e1-896d-671cb3fcc495": {
+  "searxng/text_diff": 1
+ },
+ "2f8db365-6b8b-4188-8812-4efcf91a40bd": {
+  "playwright/playwright_click": 1,
+  "playwright/playwright_fill": 1,
+  "playwright/playwright_get_visible_html": 1,
+  "playwright/playwright_navigate": 1,
+  "wikipedia/search_wikipedia": 1
+ },
+ "31086c2d-e183-42c3-9ee7-7c1278c4317f": {
+  "desktop-commander/list_directory": 1,
+  "filesystem/list_directory": 1
+ },
+ "36d95b6f-8cc6-40d0-bb64-77d3fa162f8d": {
+  "whois/whois_domain": 1
+ },
+ "37d72d03-29ae-48d1-9a48-66c9294d82fa": {
+  "mcp-crypto-price/get-crypto-price": 1,
+  "mcp-crypto-price/get-market-analysis": 1,
+  "time/get_current_time": 1
+ },
+ "3819a831-8e12-49e6-adb1-df40f512d774": {
+  "playwright/playwright_click": 1,
+  "playwright/playwright_fill": 1,
+  "playwright/playwright_get_visible_html": 1,
+  "playwright/playwright_navigate": 1,
+  "playwright/playwright_screenshot": 1
+ },
+ "38c156c5-ff2c-4cf4-9a23-984d761b8bcb": {
+  "yahoo-finance/get_cashflow": 1,
+  "yahoo-finance/get_income_statement": 1,
+  "yahoo-finance/get_news": 1,
+  "yahoo-finance/get_stock_price_date_range": 1
+ },
+ "39c4c9fc-9074-474a-850f-4b088d499d8c": {
+  "yfmcp/get_ticker_info": 1
+ },
+ "3a5cfe49-72e3-48ec-885a-39d62f8f1904": {
+  "image-extractor/extract_image_from_base64": 1
+ },
+ "3c65e618-2ed0-444b-b7c7-6135d3841976": {
+  "howtocook-mcp/mcp_howtocook_getRecipeById": 1,
+  "howtocook-mcp/mcp_howtocook_whatToEat": 1
+ },
+ "41899b5b-b6db-48b1-9899-334452904a12": {
+  "kospi-kosdaq/get_stock_fundamental": 1,
+  "kospi-kosdaq/load_all_tickers": 1
+ },
+ "423f89ba-be77-4f93-99d7-936548513eef": {
+  "word-document-server/add_footnote_to_document": 1,
+  "word-document-server/add_heading": 1,
+  "word-document-server/add_paragraph": 1,
+  "word-document-server/add_picture": 1,
+  "word-document-server/add_table": 1,
+  "word-document-server/create_document": 1
+ },
+ "470f7ac1-f573-4fec-8990-97f578749f78": {
+  "calculator/calculate": 1,
+  "kospi-kosdaq/get_stock_market_cap": 1,
+  "kospi-kosdaq/get_stock_ohlcv": 1,
+  "time/get_current_time": 1
+ },
+ "49cdaab7-39f0-4556-a3bb-7bd523916b32": {
+  "random-number/random_sample": 1
+ },
+ "4aa079dd-9d2d-440d-a654-9ba9cb3868b0": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "mcp-simple-arxiv/get_paper_data": 1,
+  "mcp-simple-arxiv/search_papers": 1
+ },
+ "4cbd9682-cce7-444e-a878-36283a865b2a": {
+  "duckduckgo-search/duckduckgo_web_search": 1,
+  "wikipedia/get_article": 1,
+  "wikipedia/search_wikipedia": 1
+ },
+ "4d7582c4-5013-4275-9621-1e7fbb5fb0c1": {
+  "datagov/package_search": 1,
+  "datagov/package_show": 1,
+  "desktop-commander/start_process": 1
+ },
+ "4de2e9f7-f3ea-4d02-8532-0a1b0b530609": {
+  "excel/excel_read_sheet": 1,
+  "mcp-server-chart/generate_bar_chart": 1
+ },
+ "507f592a-f21f-45f6-bbde-dadb86441791": {
+  "searxng/document_reader": 1
+ },
+ "567c79c3-3afb-4979-90cf-88ca49cb701d": {
+  "Ant Design Components/get-component-docs": 1,
+  "Ant Design Components/list-component-examples": 1,
+  "Ant Design Components/list-components": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1
+ },
+ "56d7fbdb-ebd6-41fe-a5d6-cd21dbc59fd8": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "mcp-deepwiki/deepwiki_fetch": 1,
+  "mcp-github-trending/get_github_trending_repositories": 1
+ },
+ "5a2720cd-20f1-49e7-a3fc-8e74af2217f6": {
+  "osm-mcp-server/find_nearby_places": 1,
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/reverse_geocode": 1,
+  "osm-mcp-server/suggest_meeting_point": 1
+ },
+ "5b2087e4-4c07-4e0d-9b2f-79514ce465f5": {
+  "opgg-mcp/lol-champion-analysis": 1,
+  "opgg-mcp/lol-champion-positions-data": 1
+ },
+ "5c19a347-7423-47e1-b8e1-dba01860bc1a": {
+  "arxiv-mcp-server/download_paper": 1,
+  "arxiv-mcp-server/read_paper": 1,
+  "arxiv-mcp-server/search_papers": 1
+ },
+ "614189f6-b70d-4144-87ad-f27209f0ec14": {
+  "trends-hub/get-bilibili-rank": 1,
+  "trends-hub/get-zhihu-trending": 1
+ },
+ "6265fd4a-a790-4be1-9806-d27b69bc6468": {
+  "trends-hub/get-ifanr-news": 1,
+  "trends-hub/get-smzdm-rank": 1
+ },
+ "629106a5-9508-4ac9-97c3-f22f6069ee7f": {
+  "opgg-mcp/valorant-characters-statistics": 1
+ },
+ "665e1166-1062-444f-81e3-df207d0f975b": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "wikipedia/get_article": 1
+ },
+ "6b7fc66e-fe96-4403-9a52-df5afa53ab68": {
+  "biomcp/trial_references_getter": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1
+ },
+ "7180c69a-bbf2-4912-a0ca-a6345c5fe7f1": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "wikipedia/summarize_article_for_query": 1
+ },
+ "71a7a42a-54af-4552-ad9b-d36f4912cc1c": {
+  "desktop-commander/read_file": 1,
+  "filesystem/read_file": 1,
+  "word-document-server/add_paragraph": 1,
+  "word-document-server/create_document": 1
+ },
+ "7bda47e8-1b8b-4f1f-b67c-573a81417d36": {
+  "fetch/fetch": 1,
+  "mcp-simple-arxiv/get_paper_data": 1
+ },
+ "80bb6782-58c0-4d5e-9022-5173be685833": {
+  "exchange-rate-mcp/exchange_rate": 1,
+  "mcp-server-chart/generate_pie_chart": 1
+ },
+ "83da9f72-640f-439d-861e-97b449e02da7": {
+  "desktop-commander/write_file": 1,
+  "fetch/fetch": 1,
+  "filesystem/write_file": 1,
+  "image-extractor/extract_image_from_url": 1
+ },
+ "84326f9f-d4b7-4dc8-b9e0-3c8868a3f79f": {
+  "hackernews/getStoryWithComments": 1
+ },
+ "860f7b99-23fe-41fe-9608-59717bad2a9a": {
+  "mcp-deepwiki/deepwiki_fetch": 1,
+  "mindmap/convert_markdown_to_mindmap": 1
+ },
+ "88ccea26-01f6-4db6-ba95-6b2a73c0488b": {
+  "ppt/create_presentation": 1,
+  "ppt/save_presentation": 1,
+  "yahoo-finance/get_historical_stock_prices": 1,
+  "yahoo-finance/get_news": 1,
+  "yahoo-finance/get_recommendations": 1
+ },
+ "8aaa7e7f-aff7-4735-9dc8-8bb5f474506c": {
+  "hackernews/getStories": 1,
+  "trends-hub/get-36kr-trending": 1,
+  "trends-hub/get-bbc-news": 1,
+  "trends-hub/get-theverge-news": 1
+ },
+ "8f26fc1a-fdaa-4e7a-ae53-7b4cacb15334": {
+  "osm-mcp-server/analyze_commute": 1,
+  "osm-mcp-server/geocode_address": 1
+ },
+ "90098a9c-2a37-4655-82b1-6b58c5154660": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "shadcn-ui-server/get_component_details": 1,
+  "shadcn-ui-server/search_components": 1
+ },
+ "91cce869-ac2c-4b9c-a2ea-1d068eb5d979": {
+  "mermaid-validator/validateMermaid": 1
+ },
+ "99d7541a-73c0-4ea1-8002-a70a041f3ffc": {
+  "music-analysis/beat_track": 1,
+  "music-analysis/chroma_cqt": 1,
+  "music-analysis/load": 1,
+  "music-analysis/mfcc": 1
+ },
+ "9a18862e-22ce-46e7-b46a-72c6f5c79b23": {
+  "text-editor/get_text_file_contents": 1
+ },
+ "9bc7feb8-2db9-4c5b-8ad9-44ff15748bf6": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "wikipedia/search_wikipedia": 1
+ },
+ "9fc8b7f3-776c-4756-bb84-a7ae667521a9": {
+  "desktop-commander/write_file": 1,
+  "fetch/fetch": 1,
+  "filesystem/write_file": 1
+ },
+ "a93169d7-af1f-43f4-b595-1b5db07aa7d5": {
+  "git/git_log": 1,
+  "git/git_status": 1
+ },
+ "a984d31b-f3e9-47d4-8726-19a06e6babc5": {
+  "duckduckgo-search/duckduckgo_web_search": 1,
+  "ppt/add_slide": 1,
+  "ppt/create_presentation": 1,
+  "ppt/save_presentation": 1
+ },
+ "ab11def3-6727-4521-ae9b-2ffc6ae5b938": {
+  "investor/get_crypto_fear_greed_index": 1,
+  "trends-hub/get-bbc-news": 1
+ },
+ "afd60e13-2448-4c0f-9aae-2054b91f1ac1": {
+  "osm-mcp-server/find_ev_charging_stations": 1,
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/get_route_directions": 1,
+  "osm-mcp-server/reverse_geocode": 1
+ },
+ "b050f277-0a92-4cfc-933b-5f01430e77dd": {
+  "searxng/docx_to_pdf": 1,
+  "searxng/pdf_merger": 1
+ },
+ "b276e772-28b5-42fd-bb85-fd73e017fe25": {
+  "Asset_Price_MCP/get_asset_price": 1,
+  "calculator/calculate": 1
+ },
+ "b6281fad-0da4-4fd4-b669-7e4ff9083a82": {
+  "Asset_Price_MCP/get_asset_price": 1,
+  "calculator/calculate": 1
+ },
+ "b84fbf2e-2e19-4cc4-ab86-8a32bd0d33ed": {
+  "osm-mcp-server/analyze_neighborhood": 1,
+  "osm-mcp-server/geocode_address": 1
+ },
+ "be3f2275-15a4-4e05-b3cb-b0eeb9109d3a": {
+  "12306-mcp/get-station-code-of-citys": 1,
+  "12306-mcp/get-tickets": 1,
+  "time/get_current_time": 1
+ },
+ "c4d6c051-e2d4-4f52-b897-e945f402b858": {
+  "investor/get_cnn_fear_greed_index": 1,
+  "trends-hub/get-bbc-news": 1
+ },
+ "cab818f4-ee48-440b-a37e-564c4edf401a": {
+  "weather/get_weather": 1
+ },
+ "cda14e48-b067-48fc-94de-bb8ec090b952": {
+  "painter/drawing_fillRectangle": 1,
+  "painter/drawing_generateCanvas": 1,
+  "painter/drawing_getCanvasPng": 1
+ },
+ "cf1fca1e-8e56-4b26-ae34-dfdb1d982080": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "npm-sentinel-mcp/npmCompare": 1,
+  "npm-sentinel-mcp/npmDeps": 1,
+  "npm-sentinel-mcp/npmSize": 1
+ },
+ "cf6ea2ca-5011-46ec-96a6-a15c46178de9": {
+  "hackernews/getStories": 1,
+  "trends-hub/get-infoq-news": 1,
+  "trends-hub/get-juejin-article-rank": 1
+ },
+ "d116bda4-e70c-4ef1-ab1a-b68b4855e1bf": {
+  "calculator/calculate": 1,
+  "excel/excel_read_sheet": 1
+ },
+ "d1ea5598-27d2-4a21-ae9d-be30ec099ee3": {
+  "trends-hub/get-bbc-news": 1
+ },
+ "dda8ea55-629c-4ae8-ab87-0c81477ae615": {
+  "osm-mcp-server/find_nearby_places": 1,
+  "osm-mcp-server/find_parking_facilities": 1,
+  "osm-mcp-server/geocode_address": 1,
+  "osm-mcp-server/reverse_geocode": 1
+ },
+ "de75630e-b91e-4cc7-85b1-5d02c2455392": {
+  "maven-deps-server/get_latest_release": 1
+ },
+ "e023dd0e-1212-47e0-a73c-97739c78b849": {
+  "ppt/add_slide": 1,
+  "ppt/create_presentation": 1,
+  "ppt/save_presentation": 1,
+  "trends-hub/get-9to5mac-news": 1
+ },
+ "e28e8dcb-3ccb-406d-a2c7-f5670d649979": {
+  "trends-hub/get-36kr-trending": 1,
+  "trends-hub/get-bbc-news": 1,
+  "trends-hub/get-nytimes-news": 1
+ },
+ "e8f13600-c0c8-427e-98d3-0762ad510805": {
+  "howtocook-mcp/mcp_howtocook_recommendMeals": 1
+ },
+ "e9df60b1-37a6-4b10-aff0-d432fa79d400": {
+  "mcp-simple-arxiv/get_paper_data": 1,
+  "mcp-simple-arxiv/search_papers": 1
+ },
+ "ea6e95fa-2791-4f66-b897-2244a17f9b51": {
+  "playwright/playwright_click": 1,
+  "playwright/playwright_fill": 1,
+  "playwright/playwright_get_visible_html": 1,
+  "playwright/playwright_navigate": 1,
+  "playwright/playwright_screenshot": 1
+ },
+ "ec6f4fe5-e650-48b1-8805-285d8f52eb10": {
+  "Context7/get-library-docs": 1,
+  "Context7/resolve-library-id": 1,
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1
+ },
+ "ef7126b3-45ad-41ab-a191-2272c644d057": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "trends-hub/get-36kr-trending": 1,
+  "trends-hub/get-netease-news-trending": 1,
+  "trends-hub/get-nytimes-news": 1,
+  "yahoo-finance/get_current_stock_price": 1,
+  "yahoo-finance/get_news": 1
+ },
+ "f2a9eb67-efec-4c86-abad-efa55a72f86d": {
+  "desktop-commander/write_file": 1,
+  "filesystem/write_file": 1,
+  "web3-research-mcp/research-with-keywords": 1
+ },
+ "f2b074b5-860e-4ecf-afac-16874155dc59": {
+  "airbnb/airbnb_search": 1,
+  "time/get_current_time": 1
+ },
+ "fa451c3f-23c2-4b03-bcb6-60b49e3a142f": {
+  "arxiv-mcp-server/search_papers": 1,
+  "mcp-simple-arxiv/search_papers": 1,
+  "searxng/document_reader": 1
+ },
+ "fab605cf-d337-4ac1-beba-b3f563eaffff": {
+  "ygocdb/get_card_image": 1,
+  "ygocdb/search_cards": 1
+ },
+ "fbe982c3-4142-40ec-8541-e06d7ab2e399": {
+  "trends-hub/get-36kr-trending": 1,
+  "wikipedia/search_wikipedia": 1,
+  "word-document-server/add_paragraph": 1,
+  "word-document-server/create_document": 1
+ },
+ "ffd5f6fb-051c-4c0f-9b82-90038b4cdb84": {
+  "Bazi/getChineseCalendar": 1,
+  "time/get_current_time": 1
+ }
+}

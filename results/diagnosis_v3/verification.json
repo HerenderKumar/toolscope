@@ -1,0 +1,22 @@
+{
+  "segments": 252,
+  "case_entries": 5437,
+  "coverage_groups": 14,
+  "unassigned_case_entries": 80,
+  "mismatches": 0,
+  "protected_files": 164,
+  "label_rows": 3315,
+  "unassigned_reasons": {
+    "search_result_truncated": 49,
+    "no_observed_search": 1
+  },
+  "report_ids": {
+    "original": "3be72fb07385acf442a73968700d55fc3976fce399c0b6f137cde0dfa8cc8e55",
+    "status": "56dbfac4b0dc69b4621d93e8c181dfede3705ef457403600f962ab852cd7c45b"
+  },
+  "v3_final_segments": 84,
+  "v3_final_case_entries": 1759,
+  "ui_static_reports": 3,
+  "ui_static_case_types": 144,
+  "ui_browser_interaction_verified": false
+}

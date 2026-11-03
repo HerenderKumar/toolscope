@@ -1,0 +1,87 @@
+{
+  "default": "2025-08-03T00:00:00Z",
+  "npm_before": "2025-09-06",
+  "overrides": {
+    "biomcp": {
+      "pin": null,
+      "reason": "Passed only unpinned (27 Oct runs); fails under both cutoffs."
+    },
+    "investor": {
+      "pin": "2025-08-03T00:00:00Z",
+      "reason": "Passed under the 2025-08-03 pin; fails under the 2026-07-28 pin."
+    },
+    "text-editor": {
+      "pin": "2025-08-03T00:00:00Z",
+      "reason": "Passed under the 2025-08-03 pin and unpinned; fails under the 2026-07-28 pin."
+    },
+    "basic-memory": {
+      "pin": "2025-08-03T00:00:00Z",
+      "env": {
+        "UV_PYTHON": "/usr/bin/python3.12"
+      },
+      "reason": "Passed under the 2025-08-03 pin. Needs SQLite FTS5: uses deadsnakes Python 3.12 (system SQLite with FTS5) instead of uv's Python builds, which lack FTS5 (D-024)."
+    },
+    "mcp-crypto-price": {
+      "pin": "2025-08-03T00:00:00Z",
+      "env": {
+        "COINCAP_API_KEY": "${COINCAP_API_KEY}"
+      },
+      "reason": "CoinCap v2 (keyless) API is shut down; v3 needs a free key (D-015). Placeholder only; real key lives in .env (gitignored)."
+    },
+    "playwright": {
+      "pin": "2025-08-03T00:00:00Z",
+      "command_prefix": [
+        "xvfb-run",
+        "-a"
+      ],
+      "reason": "Default navigate is headed (headless=false); the container has no display. Run under Xvfb (D-027)."
+    },
+    "ppt": {
+      "pin": "2026-07-28T13:44:00Z",
+      "reason": "Fails under the 2025-08-03 pin (FastMCP 'description' kwarg needs a later mcp 1.x); passes under 2026-07-28 (D-013). Schema drift: none."
+    },
+    "12306-mcp": {
+      "pin": null,
+      "npm_before": null,
+      "args": [
+        "-y",
+        "12306-mcp@0.3.9"
+      ],
+      "reason": "Versions <= 0.3.8 crash at start (12306 site changed). 0.3.9 is the earliest that works; 1 non-gold tool drifts (get-train-route-stations: trainNo -> trainCode) (D-030)."
+    },
+    "howtocook-mcp": {
+      "pin": null,
+      "npm_before": null,
+      "args": [
+        "-y",
+        "howtocook-mcp@0.2.0"
+      ],
+      "reason": "0.1.1 (catalog era) crashes at start (recipe data URL changed). 0.2.0 works with zero schema drift (D-030)."
+    },
+    "met-museum": {
+      "pin": null,
+      "args": [
+        "-y",
+        "metmuseum-mcp@0.9.2"
+      ],
+      "reason": "0.9.2 matches the catalog schema exactly; 0.9.5 adds a required __intent parameter. The Met retired its search API on 2026-10-01 (HTTP 410), so search-museum-objects cannot succeed; objects/departments work (D-030)."
+    },
+    "desktop-commander": {
+      "pin": null,
+      "args": [
+        "-y",
+        "@wonderwhy-er/desktop-commander@0.2.10"
+      ],
+      "reason": "0.2.10 (2025-08-21) matches all 21 catalog tools; 0.2.11 removes search_code/search_files (D-030)."
+    },
+    "pdf-reader-mcp": {
+      "pin": null,
+      "npm_before": null,
+      "args": [
+        "-y",
+        "@sylphx/pdf-reader-mcp@1.0.0"
+      ],
+      "reason": "Catalog package @sylphlab/pdf-reader-mcp@0.3.23 (last version, 2025-04-07) cannot read local PDFs with any pdfjs-dist 5.x ('provide Uint8Array, not Buffer'). The project moved to @sylphx/pdf-reader-mcp; 1.0.0 has an identical schema and reads local PDFs (relative paths, as the catalog says) (D-034)."
+    }
+  }
+}

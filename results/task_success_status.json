@@ -1,0 +1,51 @@
+[
+ {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "bm25",
+  "judged": 95,
+  "success": 9,
+  "success_solvable": 9
+ },
+ {
+  "agent": "Qwen2.5-7B (local)",
+  "strategy": "semantic",
+  "judged": 95,
+  "success": 15,
+  "success_solvable": 15
+ },
+ {
+  "agent": "Qwen3-235B",
+  "strategy": "bm25",
+  "judged": 95,
+  "success": 28,
+  "success_solvable": 26
+ },
+ {
+  "agent": "Qwen3-235B",
+  "strategy": "semantic",
+  "judged": 95,
+  "success": 36,
+  "success_solvable": 35
+ },
+ {
+  "agent": "Sonnet 5.5",
+  "strategy": "bm25",
+  "judged": 95,
+  "success": 48,
+  "success_solvable": 44
+ },
+ {
+  "agent": "Kimi K2.6",
+  "strategy": "bm25",
+  "judged": 95,
+  "success": 50,
+  "success_solvable": 44
+ },
+ {
+  "agent": "Kimi K2.6",
+  "strategy": "semantic",
+  "judged": 95,
+  "success": 50,
+  "success_solvable": 46
+ }
+]

@@ -1,0 +1,75 @@
+{
+ "fingerprint": "d30a05ab2121b519ffd043a4fa9ac6b317066fce08f5e720ed32e1f8d4d81733",
+ "models": {
+  "semantic": "BAAI/bge-base-en-v1.5",
+  "toolret": "mangopy/ToolRet-trained-e5-base-v2",
+  "rerank": "cross-encoder/ms-marco-MiniLM-L6-v2"
+ },
+ "model_config": {
+  "semantic": {
+   "pooling": "cls",
+   "query_prefix": "Represent this sentence for searching relevant passages: "
+  },
+  "toolret": {
+   "pooling": "mean",
+   "query_prefix": "Instruct: \nquery: "
+  }
+ },
+ "model_cache_configs": {
+  "semantic": "/Users/herender/.cache/huggingface/hub/models--BAAI--bge-base-en-v1.5/snapshots/a5beb1e3e68b9ab74eb54cfd186867f64f240e1a/config.json",
+  "toolret": "/Users/herender/.cache/huggingface/hub/models--mangopy--ToolRet-trained-e5-base-v2/snapshots/3dfa30165c621caca193bb3ffa65fc5f1db7b813/config.json",
+  "rerank": "/Users/herender/.cache/huggingface/hub/models--cross-encoder--ms-marco-MiniLM-L6-v2/snapshots/233902d25c440f23af6f7d6e94d2946bac0bee0a/config.json"
+ },
+ "device": "cpu",
+ "rerank_top_n": 30,
+ "rrf_k": 60,
+ "top_servers": 5,
+ "depth": 20,
+ "source_sha256": {
+  "/Users/herender/Desktop/iCode/Toolscope/scripts/replay_agent_searches.py": "ee7a4841f2aaa5ac48a617b3da33fc5f80ea0456cb05ad7c91154880494afe36",
+  "data/catalog/tools.jsonl": "a8485048d6b016da12ca955d0f073a416421525d9e0d1b8c2b758f8e17285f7a",
+  "indexes/bm25/data.csc.index.npy": "ca184c9fe2105077fabaa50a00255a44f1ec2350316fa0201d0377fa962c2783",
+  "indexes/bm25/ids.json": "fea75cb5396164be0c7edbb39f7d97c985bcb5749ec31c0e3a5ed3d175a97c20",
+  "indexes/bm25/indices.csc.index.npy": "4496b83efcfebf500768f2976e38ea779c811934e5eae32f526f113a9c87d78a",
+  "indexes/bm25/indptr.csc.index.npy": "25a1fad8b4d584999824f7e16804f2da09aa5bca8591327b2613ca08b152e2ae",
+  "indexes/bm25/params.index.json": "a8f21284ddafa0a39ff44bd7ecb5b231c0d8b2eab6571d1c5da1de972e709d3e",
+  "indexes/bm25/vocab.index.json": "d406aaae6afdceda3b8c44db5dde5964193c86769f2518ba107d9b674c57b1d9",
+  "indexes/semantic/ids.json": "fea75cb5396164be0c7edbb39f7d97c985bcb5749ec31c0e3a5ed3d175a97c20",
+  "indexes/semantic/index.faiss": "adc3b6291f729b6030adc6215c479d85f035d5a0f7b333acdd028045ac3e78fb",
+  "indexes/semantic/meta.json": "202f81022e3da24e446f584ce1bae91827162032f22c50afec66c77748e28fda",
+  "indexes/semantic/vectors.npy": "339aad785afaa8db8b262864e9cae84937fba5afa936eaaeddc7e506a7825f8a",
+  "indexes/servers_toolret/ids.json": "9e812bcf60b2f7fe638d18ee572e7c72c4d33c84b5b6ef5f1f9a8941801eb6a2",
+  "indexes/servers_toolret/index.faiss": "22f6c7783ff4912dc16f2deabb68fc1da040dc4912e10f1c695bee854526d1b3",
+  "indexes/servers_toolret/meta.json": "ab170e60a7935133a93fd6d9520d97d15f5ed027d3a474292f222981565b5076",
+  "indexes/servers_toolret/vectors.npy": "79787f3a44c3ec6c7bc3eeacbe5536f2ba851b2c3c6f2c23fea2366270abf6a3",
+  "indexes/toolret/ids.json": "fea75cb5396164be0c7edbb39f7d97c985bcb5749ec31c0e3a5ed3d175a97c20",
+  "indexes/toolret/index.faiss": "d372bed6721c85f6e7224cf47e7245e58911983bf94823a8304e5b7d052ee090",
+  "indexes/toolret/meta.json": "d53de6962ac189bfd8a0fbebd3e959960ddb84cadeb754e39be4ce56d513f672",
+  "indexes/toolret/vectors.npy": "4e8ccbc2746f1cea6fafd12c05c1d5971f63e1aed63ce5ea60628aa2cb217e0e",
+  "logs/7b_d063/agent.jsonl": "483ec94ac1eef42d9d940a7cae5ade1951b34110cfe3ab4ad898a8c73cf308d6",
+  "logs/7b_d063_fix/agent.jsonl": "03888c3086fba04d160b255861ece0b926a4dfa53ee29f5b5f288438d593b2ef",
+  "logs/7b_d063_semantic/agent.jsonl": "26592e15f4b7165f593d8fa5b51bbf66c13184976e67c241b0b12790605150cd",
+  "logs/kimi/d063_bm25_a/agent.jsonl": "a0f451fcefd0d047b9d34dc17631751c14ca387bd07b4201835ffe226e3ed623",
+  "logs/kimi/d063_bm25_b/agent.jsonl": "11e432047322ff50585b69c9a62b36088a380a3c6f1ea15fb902339ad349bb0b",
+  "logs/kimi/d063_semantic_a/agent.jsonl": "acd0e112d78a13739109222f78f3c0c6d93c351a3d50c78909787772e42699fa",
+  "logs/kimi/d063_semantic_b/agent.jsonl": "96c050fbc14ded3dccd1d9d22a317e2afc04b28732b6c184d34442557f7759c6",
+  "logs/kimi/test5/agent.jsonl": "af7b44240a901a7a0caadfa552cbf0264a4aab2b6871b30b3ea66824441f8081",
+  "logs/qwen235b/d063_bm25/agent.jsonl": "15f5580e853b4b4e4b0018434ec7b63aab7a225609521c08e3c1926c618291e6",
+  "logs/qwen235b/d063_fix/agent.jsonl": "d57f4662ab2a18a50402aef3b1d41aa8b9178c0a36eac8ed7f142f49e6df76be",
+  "logs/qwen235b/d063_semantic/agent.jsonl": "be4931c42d568bd8b69a942b882422f0361ce82b9483798d8d4c6a72ab451364",
+  "logs/sonnet/agent.jsonl": "0d46890659f2d9e0e5cedddc4018d2b459d50568098b2aa60a25a5f0cd305b25",
+  "logs/sonnet/d063_fix/agent.jsonl": "ee28deeb17b28f8f71c285f461007cfd32307430e7fa4d6e318a08245025ea3c",
+  "logs/sonnet/d063_old/agent.jsonl": "382da8667a0e6a0c0e4d46b9b08e025a79825892f40d86bbd47d24713c163c1b",
+  "src/toolscope/diagnosis/runs.py": "8f12e711aacd191d9a2ff8aec969159f4cf10f7abb8202a41fc6ffb2f2da5969",
+  "src/toolscope/diagnosis/search_evidence.py": "29b71fff6ca30bfabcfed7d2883e008fc01cd19927789f9c6cbb750a01f1afec",
+  "src/toolscope/retrievers/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "src/toolscope/retrievers/base.py": "be6759d45b4eac98024c0873c0b33c7e6c6a87fa241ac6cdef25c45a0c9f7d7f",
+  "src/toolscope/retrievers/bm25.py": "50d0154d21a7026faf1176ef62b8e4c76ad1add24445e76d5d4915da41ec1fe5",
+  "src/toolscope/retrievers/dense.py": "c3c9c72233723d7a1baf34422b3185397e890c4668698459cff533735c044a85",
+  "src/toolscope/retrievers/hybrid.py": "dec337c7d9c68adb7ad74ed2a5ef660a1595223009e4af4bab82db322ad0040c",
+  "src/toolscope/retrievers/registry.py": "968e1e4ac06b3d8cc8a1411fa4550f9334c354e8ce377f8ce2883e7257c7186d",
+  "src/toolscope/retrievers/rerank.py": "2ba1cfbc5d1fdac849be97662082a043fc0fbce0fa0dc37a2e7a3d58791cb69c",
+  "src/toolscope/retrievers/runlog.py": "a78d48c87f9f50f871c55794908c5de5811cd3b779d29d2866ae6a50d492506d",
+  "src/toolscope/retrievers/server_first.py": "be9335af673c61c6514ac4ab66b0221001427764d8b55e184c8534a4f0728f07"
+ }
+}
